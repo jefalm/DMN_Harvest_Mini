@@ -1,0 +1,63 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dmnharvestmini">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:label="DMN Harvest Mini"
+        android:supportsRtl="true">
+
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".VoiceCaptureActivity"
+            android:exported="false"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name=".HarvestForegroundService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Allows quick access to voice capture from the lock screen via a persistent notification shortcut." />
+        </service>
+
+        <!-- Glance Widget receiver -->
+        <receiver
+            android:name=".DMNHarvestWidgetReceiver"
+            android:label="DMN Harvest"
+            android:icon="@drawable/ic_harvest_widget"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/dmnharvest_widget_info" />
+            <!-- Samsung specific lock screen meta-data -->
+            <meta-data
+                android:name="com.samsung.android.appwidget.lockscreen"
+                android:value="true" />
+             <meta-data
+                android:name="com.samsung.android.appwidget.facewidget"
+                android:value="true" />
+        </receiver>
+
+    </application>
+
+</manifest>

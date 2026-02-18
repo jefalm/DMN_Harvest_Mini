@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_description"
+    android:initialLayout="@layout/glance_app_widget"
+    android:initialKeyguardLayout="@layout/glance_app_widget"
+    android:previewLayout="@layout/glance_app_widget"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:updatePeriodMillis="0"
+    android:resizeMode="none"
+    android:widgetCategory="11"
+    android:widgetFeatures="reconfigurable|configuration_optional" />

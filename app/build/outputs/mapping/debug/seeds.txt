@@ -1,0 +1,715 @@
+androidx.work.impl.foreground.SystemForegroundService
+androidx.work.WorkerParameters
+com.example.dmnharvestmini.HarvestForegroundService
+androidx.work.WorkManagerInitializer
+com.example.dmnharvestmini.MainActivity
+androidx.work.impl.workers.CombineContinuationsWorker
+androidx.activity.ImmLeaksCleaner
+androidx.activity.OnBackPressedDispatcher$LifecycleOnBackPressedCancellable
+androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+androidx.work.CoroutineWorker
+androidx.work.impl.background.systemalarm.SystemAlarmService
+android.support.v4.graphics.drawable.IconCompatParcelizer
+androidx.versionedparcelable.CustomVersionedParcelable
+androidx.compose.ui.platform.AndroidComposeView
+androidx.compose.ui.platform.ViewCompositionStrategy_androidKt$installForLifecycle$observer$1
+androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+androidx.emoji2.text.EmojiCompatInitializer
+androidx.lifecycle.LegacySavedStateHandleController$tryToAddRecreator$1
+androidx.core.app.CoreComponentFactory
+androidx.glance.appwidget.UnmanagedSessionReceiver
+androidx.profileinstaller.ProfileInstallerInitializer
+androidx.lifecycle.ReflectiveGenericLifecycleObserver
+androidx.lifecycle.SavedStateHandleController
+androidx.compose.ui.input.pointer.SuspendPointerInputElement
+androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+androidx.lifecycle.SingleGeneratedAdapterObserver
+com.example.dmnharvestmini.CaptureAction
+androidx.glance.appwidget.action.InvisibleActionTrampolineActivity
+com.example.dmnharvestmini.VoiceCaptureActivity
+androidx.work.Worker
+androidx.lifecycle.LiveData$LifecycleBoundObserver
+androidx.work.impl.workers.DiagnosticsWorker
+androidx.work.impl.background.systemalarm.RescheduleReceiver
+androidx.lifecycle.CompositeGeneratedAdaptersObserver
+androidx.core.app.RemoteActionCompatParcelizer
+androidx.annotation.Keep
+androidx.startup.InitializationProvider
+androidx.work.impl.WorkDatabase_Impl
+androidx.lifecycle.ProcessLifecycleInitializer
+androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+androidx.lifecycle.LifecycleCoroutineScopeImpl
+androidx.savedstate.Recreator
+androidx.versionedparcelable.ParcelImpl
+androidx.profileinstaller.ProfileInstallReceiver
+androidx.activity.ComponentActivity$4
+androidx.emoji2.text.EmojiCompatInitializer$1
+androidx.glance.appwidget.MyPackageReplacedReceiver
+androidx.work.ArrayCreatingInputMerger
+kotlinx.coroutines.internal.StackTraceRecoveryKt
+androidx.glance.appwidget.GlanceRemoteViewsService
+com.example.dmnharvestmini.HarvestDatabase
+android.support.v4.app.RemoteActionCompatParcelizer
+androidx.core.graphics.drawable.IconCompat
+androidx.lifecycle.DefaultLifecycleObserverAdapter
+androidx.core.widget.RemoteViewsCompatService
+androidx.room.MultiInstanceInvalidationService
+androidx.lifecycle.SavedStateHandleAttacher
+androidx.core.app.RemoteActionCompat
+androidx.glance.session.SessionWorker
+com.example.dmnharvestmini.DMNHarvestWidgetReceiver
+androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+androidx.compose.ui.platform.WindowRecomposer_androidKt$createLifecycleAwareWindowRecomposer$2
+androidx.work.impl.diagnostics.DiagnosticsReceiver
+androidx.work.ListenableWorker
+androidx.work.OverwritingInputMerger
+androidx.compose.ui.node.ForceUpdateElement
+androidx.work.impl.WorkDatabase
+androidx.compose.ui.platform.WrappedComposition
+androidx.lifecycle.RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1
+androidx.glance.appwidget.action.ActionTrampolineActivity
+androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver
+androidx.lifecycle.WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1
+kotlin.coroutines.jvm.internal.BaseContinuationImpl
+androidx.core.graphics.drawable.IconCompatParcelizer
+androidx.work.impl.background.systemjob.SystemJobService
+androidx.work.impl.workers.ConstraintTrackingWorker
+com.example.dmnharvestmini.HarvestDatabase_Impl
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: androidx.lifecycle.ProcessLifecycleOwner this$0
+kotlinx.coroutines.EventLoopImplBase: java.lang.Object _queue
+androidx.datastore.preferences.PreferencesProto$StringSet: androidx.datastore.preferences.protobuf.Parser PARSER
+androidx.work.impl.utils.futures.AbstractFuture$Waiter: java.lang.Thread thread
+androidx.activity.result.ActivityResult: android.os.Parcelable$Creator CREATOR
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: int layoutIndex_
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: int LAYOUT_INDEX_FIELD_NUMBER
+androidx.datastore.preferences.PreferencesProto$Value: androidx.datastore.preferences.PreferencesProto$Value DEFAULT_INSTANCE
+androidx.datastore.preferences.PreferencesProto$Value: java.lang.Object value_
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: int LAYOUT_FIELD_NUMBER
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int HAS_IMAGE_DESCRIPTION_FIELD_NUMBER
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: int MEMOIZED_SERIALIZED_SIZE_MASK
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int height_
+kotlinx.coroutines.android.HandlerContext: kotlinx.coroutines.android.HandlerContext _immediate
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: androidx.lifecycle.ProcessLifecycleOwner this$0
+androidx.datastore.preferences.PreferencesProto$Value: int STRING_FIELD_NUMBER
+kotlinx.coroutines.CancelledContinuation: int _resumed
+androidx.activity.result.IntentSenderRequest: android.os.Parcelable$Creator CREATOR
+kotlinx.coroutines.JobSupport$Finishing: java.lang.Object _rootCause
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: int NEXT_INDEX_FIELD_NUMBER
+androidx.concurrent.futures.AbstractResolvableFuture: java.lang.Object value
+kotlinx.coroutines.channels.BufferedChannel: long completedExpandBuffersAndPauseFlag
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: java.util.Map defaultInstanceMap
+androidx.concurrent.futures.AbstractResolvableFuture$Waiter: java.lang.Thread thread
+kotlinx.coroutines.sync.MutexImpl: java.lang.Object owner
+kotlinx.coroutines.internal.ThreadSafeHeap: int _size
+androidx.datastore.preferences.PreferencesProto$PreferenceMap: int PREFERENCES_FIELD_NUMBER
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: androidx.glance.appwidget.proto.LayoutProto$LayoutNode DEFAULT_INSTANCE
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event$Companion Companion
+kotlinx.coroutines.internal.LockFreeTaskQueueCore: long _state
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: androidx.lifecycle.ReportFragment$LifecycleCallbacks$Companion Companion
+kotlinx.coroutines.internal.LockFreeTaskQueueCore: java.lang.Object _next
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object bufferEndSegment
+kotlinx.coroutines.DefaultExecutor: int debugStatus
+kotlinx.coroutines.DispatchedCoroutine: int _decision
+androidx.datastore.preferences.PreferencesProto$Value: int LONG_FIELD_NUMBER
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: int memoizedSerializedSize
+kotlinx.coroutines.scheduling.WorkQueue: int consumerIndex
+androidx.work.impl.utils.futures.AbstractFuture$Waiter: androidx.work.impl.utils.futures.AbstractFuture$Waiter next
+kotlinx.coroutines.DefaultExecutor: java.lang.Thread _thread
+androidx.datastore.preferences.protobuf.GeneratedMessageLite: androidx.datastore.preferences.protobuf.UnknownFieldSetLite unknownFields
+kotlinx.coroutines.scheduling.CoroutineScheduler$Worker: java.lang.Object nextParkedWorker
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int HASACTION_FIELD_NUMBER
+kotlinx.coroutines.CancellableContinuationImpl: java.lang.Object _parentHandle
+kotlinx.coroutines.internal.LockFreeTaskQueue: java.lang.Object _cur
+androidx.datastore.preferences.PreferencesProto$PreferenceMap: androidx.datastore.preferences.PreferencesProto$PreferenceMap DEFAULT_INSTANCE
+androidx.datastore.preferences.PreferencesProto$StringSet: androidx.datastore.preferences.PreferencesProto$StringSet DEFAULT_INSTANCE
+kotlinx.coroutines.sync.SemaphoreImpl: long enqIdx
+androidx.datastore.preferences.PreferencesProto$StringSet: androidx.datastore.preferences.protobuf.Internal$ProtobufList strings_
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_STOP
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object closeHandler
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: androidx.glance.appwidget.protobuf.Internal$ProtobufList layout_
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int width_
+kotlinx.coroutines.scheduling.WorkQueue: int blockingTasksInBuffer
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int HORIZONTAL_ALIGNMENT_FIELD_NUMBER
+kotlinx.coroutines.channels.BufferedChannel: long bufferEnd
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: androidx.glance.appwidget.protobuf.Parser PARSER
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: androidx.glance.appwidget.proto.LayoutProto$LayoutNode layout_
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int type_
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: int UNINITIALIZED_HASH_CODE
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int VERTICAL_ALIGNMENT_FIELD_NUMBER
+kotlinx.coroutines.AwaitAll: int notCompletedCount
+androidx.concurrent.futures.AbstractResolvableFuture: androidx.concurrent.futures.AbstractResolvableFuture$Listener listeners
+androidx.datastore.preferences.PreferencesProto$Value: int valueCase_
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: int LAYOUT_FIELD_NUMBER
+androidx.concurrent.futures.AbstractResolvableFuture: androidx.concurrent.futures.AbstractResolvableFuture$Waiter waiters
+kotlinx.coroutines.EventLoopImplBase: int _isCompleted
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_ANY
+kotlinx.coroutines.android.AndroidExceptionPreHandler: java.lang.Object _preHandler
+kotlinx.coroutines.channels.BufferedChannel: long receivers
+kotlinx.coroutines.CancellableContinuationImpl: int _decisionAndIndex
+kotlinx.coroutines.internal.LockFreeLinkedListNode: java.lang.Object _next
+androidx.datastore.preferences.PreferencesProto$Value: int INTEGER_FIELD_NUMBER
+androidx.datastore.preferences.protobuf.AbstractMessageLite: int memoizedHashCode
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int CHILDREN_FIELD_NUMBER
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: androidx.glance.appwidget.protobuf.Parser PARSER
+kotlinx.coroutines.scheduling.CoroutineScheduler: int _isTerminated
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_START
+androidx.datastore.preferences.PreferencesProto$StringSet: int STRINGS_FIELD_NUMBER
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object _closeCause
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: int nextIndex_
+kotlinx.coroutines.scheduling.CoroutineScheduler$Worker: int indexInArray
+kotlinx.coroutines.sync.SemaphoreImpl: java.lang.Object head
+androidx.glance.appwidget.protobuf.AbstractMessageLite: int memoizedHashCode
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event[] $VALUES
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object receiveSegment
+androidx.datastore.preferences.protobuf.GeneratedMessageLite: java.util.Map defaultInstanceMap
+androidx.datastore.preferences.PreferencesProto$Value: int STRING_SET_FIELD_NUMBER
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: androidx.glance.appwidget.protobuf.Parser PARSER
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: boolean hasImageColorFilter_
+androidx.work.impl.utils.futures.AbstractFuture: androidx.work.impl.utils.futures.AbstractFuture$Waiter waiters
+androidx.work.impl.utils.futures.AbstractFuture: java.lang.Object value
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: int UNINITIALIZED_SERIALIZED_SIZE
+kotlinx.coroutines.JobSupport$Finishing: int _isCompleting
+kotlinx.coroutines.internal.AtomicOp: java.lang.Object _consensus
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object sendSegment
+androidx.versionedparcelable.ParcelImpl: android.os.Parcelable$Creator CREATOR
+kotlinx.coroutines.flow.StateFlowImpl: java.lang.Object _state
+kotlinx.coroutines.JobSupport$Finishing: java.lang.Object _exceptionsHolder
+kotlinx.coroutines.CompletedExceptionally: int _handled
+androidx.datastore.preferences.PreferencesProto$PreferenceMap: androidx.datastore.preferences.protobuf.Parser PARSER
+androidx.datastore.preferences.PreferencesProto$Value: int DOUBLE_FIELD_NUMBER
+kotlinx.coroutines.scheduling.CoroutineScheduler$Worker: int workerCtl
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: int MUTABLE_FLAG_MASK
+kotlinx.coroutines.EventLoopImplBase: java.lang.Object _delayed
+kotlinx.coroutines.AwaitAll$AwaitAllNode: java.lang.Object _disposer
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int TYPE_FIELD_NUMBER
+kotlinx.coroutines.internal.ConcurrentLinkedListNode: java.lang.Object _next
+androidx.datastore.preferences.PreferencesProto$Value: androidx.datastore.preferences.protobuf.Parser PARSER
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: boolean hasImageDescription_
+kotlinx.coroutines.internal.LockFreeLinkedListNode: java.lang.Object _prev
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: androidx.glance.appwidget.proto.LayoutProto$LayoutConfig DEFAULT_INSTANCE
+kotlinx.coroutines.UndispatchedCoroutine: boolean threadLocalIsSet
+kotlinx.coroutines.flow.StateFlowSlot: java.lang.Object _state
+kotlinx.coroutines.InvokeOnCancelling: int _invoked
+kotlinx.coroutines.internal.DispatchedContinuation: java.lang.Object _reusableCancellableContinuation
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int identity_
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int imageScale_
+kotlinx.coroutines.scheduling.CoroutineScheduler: long parkedWorkersStack
+kotlinx.coroutines.sync.SemaphoreImpl: long deqIdx
+kotlinx.coroutines.scheduling.CoroutineScheduler: long controlState
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_DESTROY
+kotlinx.coroutines.scheduling.WorkQueue: int producerIndex
+androidx.compose.runtime.ParcelableSnapshotMutableState: android.os.Parcelable$Creator CREATOR
+kotlinx.coroutines.EventLoopImplBase$DelayedTask: java.lang.Object _heap
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: androidx.glance.appwidget.protobuf.Internal$ProtobufList children_
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int horizontalAlignment_
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_PAUSE
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_CREATE
+androidx.datastore.preferences.PreferencesProto$Value: int BOOLEAN_FIELD_NUMBER
+kotlinx.coroutines.sync.SemaphoreImpl: java.lang.Object tail
+androidx.datastore.preferences.protobuf.GeneratedMessageLite: int memoizedSerializedSize
+androidx.datastore.preferences.PreferencesProto$Value: int bitField0_
+kotlinx.coroutines.internal.LockFreeLinkedListNode: java.lang.Object _removedRef
+androidx.datastore.preferences.PreferencesProto$Value: int FLOAT_FIELD_NUMBER
+androidx.concurrent.futures.AbstractResolvableFuture$Waiter: androidx.concurrent.futures.AbstractResolvableFuture$Waiter next
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: boolean hasAction_
+kotlinx.coroutines.internal.LimitedDispatcher: int runningWorkers
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: androidx.glance.appwidget.protobuf.UnknownFieldSetLite unknownFields
+kotlinx.coroutines.sync.SemaphoreImpl: int _availablePermits
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition DEFAULT_INSTANCE
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_RESUME
+kotlinx.coroutines.internal.Segment: int cleanedAndPointers
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int WIDTH_FIELD_NUMBER
+kotlinx.coroutines.JobSupport: java.lang.Object _state
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int IMAGE_SCALE_FIELD_NUMBER
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: int bitField0_
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int verticalAlignment_
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int IDENTITY_FIELD_NUMBER
+kotlinx.coroutines.scheduling.WorkQueue: java.lang.Object lastScheduledTask
+kotlinx.coroutines.JobSupport: java.lang.Object _parentHandle
+kotlinx.coroutines.CancellableContinuationImpl: java.lang.Object _state
+androidx.datastore.preferences.PreferencesProto$PreferenceMap: androidx.datastore.preferences.protobuf.MapFieldLite preferences_
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int HAS_IMAGE_COLOR_FILTER_FIELD_NUMBER
+kotlinx.coroutines.internal.ResizableAtomicArray: java.util.concurrent.atomic.AtomicReferenceArray array
+kotlinx.coroutines.internal.ConcurrentLinkedListNode: java.lang.Object _prev
+kotlinx.coroutines.channels.BufferedChannel: long sendersAndCloseStatus
+androidx.work.impl.utils.futures.AbstractFuture: androidx.work.impl.utils.futures.AbstractFuture$Listener listeners
+kotlinx.coroutines.android.HandlerDispatcherKt: android.view.Choreographer choreographer
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int HEIGHT_FIELD_NUMBER
+androidx.compose.ui.autofill.AutofillCallback: void unregister(androidx.compose.ui.autofill.AndroidAutofill)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityResumed(android.app.Activity)
+androidx.compose.ui.platform.AndroidComposeView: void setFontFamilyResolver(androidx.compose.ui.text.font.FontFamily$Resolver)
+androidx.compose.ui.platform.AndroidComposeView: void setLastMatrixRecalculationAnimationTime$ui_release(long)
+androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.work.OutOfQuotaPolicy: androidx.work.OutOfQuotaPolicy[] values()
+androidx.core.content.pm.PackageInfoCompat$Api28Impl: android.content.pm.Signature[] getApkContentsSigners(android.content.pm.SigningInfo)
+androidx.glance.appwidget.protobuf.FieldType: androidx.glance.appwidget.protobuf.FieldType valueOf(java.lang.String)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Builder setLocalOnly(android.app.Notification$Builder,boolean)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidViewsHandler getAndroidViewsHandler$ui_release()
+androidx.work.impl.foreground.SystemForegroundService: SystemForegroundService()
+androidx.activity.EdgeToEdgeApi21: void setUp(androidx.activity.SystemBarStyle,androidx.activity.SystemBarStyle,android.view.Window,android.view.View,boolean,boolean)
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setTimeoutAfter(android.app.Notification$Builder,long)
+androidx.work.WorkInfo$State: androidx.work.WorkInfo$State[] values()
+androidx.core.app.AppOpsManagerCompat$Api29Impl: int checkOpNoThrow(android.app.AppOpsManager,java.lang.String,int,java.lang.String)
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setSettingsText(android.app.Notification$Builder,java.lang.CharSequence)
+androidx.core.graphics.drawable.IconCompat$Api26Impl: android.graphics.drawable.Icon createWithAdaptiveBitmap(android.graphics.Bitmap)
+androidx.compose.ui.autofill.AutofillApi23Helper: void setId(android.view.ViewStructure,int,java.lang.String,java.lang.String,java.lang.String)
+androidx.compose.ui.platform.RenderNodeVerificationHelper28: void setSpotShadowColor(android.view.RenderNode,int)
+androidx.work.Worker: Worker(android.content.Context,androidx.work.WorkerParameters)
+androidx.core.app.CoreComponentFactory: CoreComponentFactory()
+kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState: kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState[] values()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setCharSequence(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.datastore.preferences.protobuf.Writer$FieldOrder: androidx.datastore.preferences.protobuf.Writer$FieldOrder[] values()
+androidx.glance.appwidget.protobuf.Writer$FieldOrder: androidx.glance.appwidget.protobuf.Writer$FieldOrder valueOf(java.lang.String)
+androidx.datastore.preferences.protobuf.ProtoSyntax: androidx.datastore.preferences.protobuf.ProtoSyntax[] values()
+androidx.datastore.preferences.protobuf.FieldType$Collection: androidx.datastore.preferences.protobuf.FieldType$Collection[] values()
+androidx.compose.ui.platform.RenderNodeVerificationHelper28: void setAmbientShadowColor(android.view.RenderNode,int)
+androidx.glance.appwidget.proto.LayoutProto$DimensionType: androidx.glance.appwidget.proto.LayoutProto$DimensionType valueOf(java.lang.String)
+androidx.compose.ui.autofill.AutofillCallback: void register(androidx.compose.ui.autofill.AndroidAutofill)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.autofill.Autofill getAutofill()
+androidx.profileinstaller.ProfileInstallerInitializer$Choreographer16Impl: void postFrameCallback(java.lang.Runnable)
+androidx.datastore.preferences.protobuf.FieldType: androidx.datastore.preferences.protobuf.FieldType[] values()
+androidx.core.app.NotificationCompatBuilder$Api24Impl: android.app.Notification$Builder setCustomContentView(android.app.Notification$Builder,android.widget.RemoteViews)
+androidx.glance.appwidget.protobuf.Writer$FieldOrder: androidx.glance.appwidget.protobuf.Writer$FieldOrder[] values()
+androidx.core.content.res.FontResourcesParserCompat$Api21Impl: int getType(android.content.res.TypedArray,int)
+androidx.emoji2.text.EmojiCompatInitializer: EmojiCompatInitializer()
+androidx.core.app.NotificationCompatBuilder$Api20Impl: java.lang.String getGroup(android.app.Notification)
+androidx.compose.ui.platform.AndroidComposeView: void set_viewTreeOwners(androidx.compose.ui.platform.AndroidComposeView$ViewTreeOwners)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.LayoutNodeDrawScope getSharedDrawScope()
+androidx.compose.ui.node.LayoutNode$LayoutState: androidx.compose.ui.node.LayoutNode$LayoutState valueOf(java.lang.String)
+androidx.work.CoroutineWorker: CoroutineWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.profileinstaller.FileSectionType: androidx.profileinstaller.FileSectionType[] values()
+com.example.dmnharvestmini.HarvestForegroundService: HarvestForegroundService()
+androidx.compose.ui.platform.AndroidComposeView: android.view.View findViewByAccessibilityIdTraversal(int)
+androidx.glance.appwidget.translators.CompoundButtonApi31Impl: void setCompoundButtonChecked(android.widget.RemoteViews,int,boolean)
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder setCategory(android.app.Notification$Builder,java.lang.String)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.glance.appwidget.ApplyModifiersApi31Impl: void setViewHeight(android.widget.RemoteViews,int,androidx.glance.unit.Dimension)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorAttr(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: <clinit>()
+androidx.activity.EdgeToEdgeApi28: void adjustLayoutInDisplayCutoutMode(android.view.Window)
+androidx.work.NetworkType: androidx.work.NetworkType[] values()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setIcon(android.widget.RemoteViews,int,java.lang.String,android.graphics.drawable.Icon,android.graphics.drawable.Icon)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.datastore.preferences.protobuf.WireFormat$JavaType: androidx.datastore.preferences.protobuf.WireFormat$JavaType[] values()
+androidx.work.impl.WorkDatabase: WorkDatabase()
+kotlin.coroutines.intrinsics.CoroutineSingletons: kotlin.coroutines.intrinsics.CoroutineSingletons[] values()
+androidx.glance.appwidget.protobuf.WireFormat$FieldType: androidx.glance.appwidget.protobuf.WireFormat$FieldType valueOf(java.lang.String)
+androidx.core.app.RemoteInput$Api26Impl: java.util.Set getAllowedDataTypes(java.lang.Object)
+androidx.compose.ui.autofill.AutofillApi26Helper: void setAutofillType(android.view.ViewStructure,int)
+androidx.compose.ui.platform.ViewLayer: androidx.compose.ui.graphics.Path getManualClipPath()
+androidx.compose.ui.platform.RenderNodeVerificationHelper23: void destroyDisplayListData(android.view.RenderNode)
+androidx.work.impl.background.systemalarm.SystemAlarmService: SystemAlarmService()
+androidx.lifecycle.Lifecycle$State: androidx.lifecycle.Lifecycle$State valueOf(java.lang.String)
+androidx.core.app.NotificationCompatBuilder$Api23Impl: android.app.Notification$Builder setSmallIcon(android.app.Notification$Builder,java.lang.Object)
+androidx.glance.appwidget.protobuf.FieldType$Collection: androidx.glance.appwidget.protobuf.FieldType$Collection valueOf(java.lang.String)
+androidx.core.app.ActivityCompat$Api23Impl: boolean shouldShowRequestPermissionRationale(android.app.Activity,java.lang.String)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setBlendMode(android.widget.RemoteViews,int,java.lang.String,android.graphics.BlendMode)
+androidx.compose.ui.platform.AbstractComposeView: void getShowLayoutBounds$annotations()
+kotlinx.coroutines.android.AndroidExceptionPreHandler: AndroidExceptionPreHandler()
+androidx.activity.OnBackPressedDispatcher$Api33Impl: void registerOnBackInvokedCallback(java.lang.Object,int,java.lang.Object)
+kotlinx.coroutines.CoroutineStart: kotlinx.coroutines.CoroutineStart valueOf(java.lang.String)
+kotlin.coroutines.intrinsics.CoroutineSingletons: kotlin.coroutines.intrinsics.CoroutineSingletons valueOf(java.lang.String)
+androidx.concurrent.futures.DirectExecutor: androidx.concurrent.futures.DirectExecutor valueOf(java.lang.String)
+androidx.compose.ui.platform.ViewLayer: androidx.compose.ui.platform.AndroidComposeView getOwnerView()
+androidx.activity.EdgeToEdgeApi26: void setUp(androidx.activity.SystemBarStyle,androidx.activity.SystemBarStyle,android.view.Window,android.view.View,boolean,boolean)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityPaused(android.app.Activity)
+androidx.core.app.NotificationCompatBuilder$Api29Impl: android.app.Notification$Builder setLocusId(android.app.Notification$Builder,java.lang.Object)
+androidx.concurrent.futures.DirectExecutor: androidx.concurrent.futures.DirectExecutor[] values()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorStateList(android.widget.RemoteViews,int,java.lang.String,android.content.res.ColorStateList)
+androidx.compose.ui.platform.AndroidComposeView: void getShowLayoutBounds$annotations()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setIntDimen(android.widget.RemoteViews,int,java.lang.String,float,int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.hapticfeedback.HapticFeedback getHapticFeedBack()
+androidx.core.app.NotificationCompatBuilder$Api24Impl: android.app.Notification$Builder setCustomBigContentView(android.app.Notification$Builder,android.widget.RemoteViews)
+androidx.glance.appwidget.proto.LayoutProto$ContentScale: androidx.glance.appwidget.proto.LayoutProto$ContentScale[] values()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorStateListAttr(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityStopped(android.app.Activity)
+androidx.glance.appwidget.TracingApi29Impl: void endAsyncSection(java.lang.String,int)
+androidx.core.content.res.ResourcesCompat$Api23Impl: android.content.res.ColorStateList getColorStateList(android.content.res.Resources,int,android.content.res.Resources$Theme)
+androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName: androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName[] values()
+androidx.compose.ui.platform.ViewLayer: androidx.compose.ui.platform.DrawChildContainer getContainer()
+androidx.room.RoomDatabase$JournalMode: androidx.room.RoomDatabase$JournalMode valueOf(java.lang.String)
+kotlinx.coroutines.channels.BufferOverflow: kotlinx.coroutines.channels.BufferOverflow valueOf(java.lang.String)
+kotlin.collections.AbstractMutableList: AbstractMutableList()
+kotlinx.coroutines.selects.TrySelectDetailedResult: kotlinx.coroutines.selects.TrySelectDetailedResult[] values()
+androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy: ConstraintProxy$StorageNotLowProxy()
+androidx.glance.appwidget.proto.LayoutProto$LayoutType: androidx.glance.appwidget.proto.LayoutProto$LayoutType valueOf(java.lang.String)
+androidx.glance.appwidget.proto.LayoutProto$ContentScale: androidx.glance.appwidget.proto.LayoutProto$ContentScale valueOf(java.lang.String)
+androidx.glance.appwidget.action.ApplyActionApi31Impl: void unsetOnCheckedChangeResponse(android.widget.RemoteViews,int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.TextToolbar getTextToolbar()
+androidx.lifecycle.ReportFragment: ReportFragment()
+androidx.compose.ui.platform.MotionEventVerifierApi29: boolean isValidMotionEvent(android.view.MotionEvent,int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.text.input.PlatformTextInputPluginRegistryImpl getPlatformTextInputPluginRegistry()
+androidx.core.widget.RemoteViewsCompatService: RemoteViewsCompatService()
+androidx.datastore.preferences.protobuf.GeneratedMessageLite$MethodToInvoke: androidx.datastore.preferences.protobuf.GeneratedMessageLite$MethodToInvoke[] values()
+android.support.v4.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.core.graphics.drawable.IconCompat$Api28Impl: int getResId(java.lang.Object)
+androidx.core.content.pm.PackageInfoCompat$Api28Impl: boolean hasMultipleSigners(android.content.pm.SigningInfo)
+androidx.datastore.preferences.protobuf.GeneratedMessageLite$MethodToInvoke: androidx.datastore.preferences.protobuf.GeneratedMessageLite$MethodToInvoke valueOf(java.lang.String)
+android.support.v4.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.compose.ui.platform.AndroidComposeView: long getLastMatrixRecalculationAnimationTime$ui_release()
+androidx.room.MultiInstanceInvalidationService: MultiInstanceInvalidationService()
+androidx.compose.ui.platform.AndroidComposeView: kotlin.jvm.functions.Function1 getConfigurationChangeObserver()
+androidx.compose.ui.autofill.AutofillApi26Helper: android.view.autofill.AutofillId getAutofillId(android.view.ViewStructure)
+androidx.compose.ui.platform.AndroidComposeView: void setShowLayoutBounds(boolean)
+androidx.glance.appwidget.translators.ImageTranslatorApi23Impl: void setImageViewIcon(android.widget.RemoteViews,int,android.graphics.drawable.Icon)
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder addPerson(android.app.Notification$Builder,java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: void getLastMatrixRecalculationAnimationTime$ui_release$annotations()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setFloatDimen(android.widget.RemoteViews,int,java.lang.String,float,int)
+androidx.compose.ui.text.font.TypefaceHelperMethodsApi28: android.graphics.Typeface create(android.graphics.Typeface,int,boolean)
+androidx.glance.appwidget.proto.LayoutProto$NodeIdentity: androidx.glance.appwidget.proto.LayoutProto$NodeIdentity valueOf(java.lang.String)
+com.example.dmnharvestmini.HarvestDatabase_Impl: HarvestDatabase_Impl()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorInt(android.widget.RemoteViews,int,java.lang.String,int,int)
+com.example.dmnharvestmini.MainActivity: MainActivity()
+androidx.activity.Api34Impl: float touchX(android.window.BackEvent)
+androidx.core.view.ViewCompat$Api28Impl: boolean isScreenReaderFocusable(android.view.View)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: void onActivityPostResumed(android.app.Activity)
+kotlinx.coroutines.android.AndroidDispatcherFactory: java.lang.String hintOnError()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.RootForTest getRootForTest()
+androidx.datastore.preferences.protobuf.FieldType$Collection: androidx.datastore.preferences.protobuf.FieldType$Collection valueOf(java.lang.String)
+androidx.datastore.preferences.protobuf.ProtoSyntax: androidx.datastore.preferences.protobuf.ProtoSyntax valueOf(java.lang.String)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPreDestroyed(android.app.Activity)
+androidx.compose.ui.platform.AndroidComposeView: void getFontLoader$annotations()
+androidx.compose.ui.unit.LayoutDirection: androidx.compose.ui.unit.LayoutDirection[] values()
+androidx.compose.ui.platform.DrawChildContainer: int getChildCount()
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Action$Builder addExtras(android.app.Notification$Action$Builder,android.os.Bundle)
+androidx.glance.appwidget.protobuf.GeneratedMessageLite$MethodToInvoke: androidx.glance.appwidget.protobuf.GeneratedMessageLite$MethodToInvoke valueOf(java.lang.String)
+androidx.lifecycle.Lifecycle$State: androidx.lifecycle.Lifecycle$State[] values()
+androidx.core.app.NotificationCompatBuilder$Api28Impl: android.app.Notification$Action$Builder setSemanticAction(android.app.Notification$Action$Builder,int)
+androidx.glance.appwidget.RemoteViewsTranslatorApi31Impl: void addChildView(android.widget.RemoteViews,int,android.widget.RemoteViews,int)
+androidx.work.impl.utils.futures.DirectExecutor: androidx.work.impl.utils.futures.DirectExecutor valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.ClipboardManager getClipboardManager()
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: ProcessLifecycleOwner$attach$1(androidx.lifecycle.ProcessLifecycleOwner)
+androidx.work.impl.background.systemjob.SystemJobService: SystemJobService()
+kotlin.collections.AbstractList: AbstractList()
+androidx.work.WorkManagerInitializer: WorkManagerInitializer()
+androidx.activity.EdgeToEdgeApi30: void adjustLayoutInDisplayCutoutMode(android.view.Window)
+androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback: LifecycleDispatcher$DispatcherActivityCallback()
+androidx.compose.ui.platform.AndroidViewsHandler: java.util.HashMap getLayoutNodeToHolder()
+androidx.core.app.RemoteActionCompat: RemoteActionCompat()
+kotlinx.coroutines.android.AndroidDispatcherFactory: AndroidDispatcherFactory()
+androidx.compose.ui.graphics.CanvasZHelper: void enableZ(android.graphics.Canvas,boolean)
+androidx.core.graphics.drawable.IconCompat$Api23Impl: android.graphics.drawable.Drawable loadDrawable(android.graphics.drawable.Icon,android.content.Context)
+androidx.activity.Api34Impl: float progress(android.window.BackEvent)
+androidx.core.os.BundleCompat$Api33Impl: java.util.ArrayList getParcelableArrayList(android.os.Bundle,java.lang.String,java.lang.Class)
+androidx.work.NetworkType: androidx.work.NetworkType valueOf(java.lang.String)
+androidx.activity.OnBackPressedDispatcher$Api34Impl: android.window.OnBackInvokedCallback createOnBackAnimationCallback(kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0)
+androidx.core.app.ActivityCompat$Api23Impl: void onSharedElementsReady(java.lang.Object)
+androidx.core.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+androidx.core.os.BuildCompat$Api30Impl: int getExtensionVersion(int)
+androidx.lifecycle.SavedStateHandlesVM: SavedStateHandlesVM()
+androidx.compose.ui.platform.AndroidComposeView: void setConfigurationChangeObserver(kotlin.jvm.functions.Function1)
+androidx.glance.appwidget.protobuf.WireFormat$JavaType: androidx.glance.appwidget.protobuf.WireFormat$JavaType valueOf(java.lang.String)
+androidx.glance.appwidget.action.ActionTrampolineActivity: ActionTrampolineActivity()
+kotlinx.coroutines.android.AndroidDispatcherFactory: int getLoadPriority()
+androidx.compose.ui.autofill.AutofillApi26Helper: void setAutofillHints(android.view.ViewStructure,java.lang.String[])
+androidx.room.Index$Order: androidx.room.Index$Order valueOf(java.lang.String)
+androidx.core.app.NotificationManagerCompat$Api24Impl: int getImportance(android.app.NotificationManager)
+androidx.compose.ui.platform.AndroidComposeView: boolean getShowLayoutBounds()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidClipboardManager getClipboardManager()
+androidx.compose.ui.platform.ViewLayer: void setCameraDistancePx(float)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostResumed(android.app.Activity)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostCreated(android.app.Activity,android.os.Bundle)
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder createBuilder(android.content.Context,java.lang.String)
+androidx.core.graphics.drawable.IconCompat$Api28Impl: int getType(java.lang.Object)
+androidx.compose.ui.autofill.AutofillApi23Helper: android.view.ViewStructure newChild(android.view.ViewStructure,int)
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setBadgeIconType(android.app.Notification$Builder,int)
+androidx.glance.appwidget.translators.TextTranslatorApi31Impl: void setTextViewGravity(android.widget.RemoteViews,int,int)
+androidx.glance.session.SessionWorker: SessionWorker(android.content.Context,androidx.work.WorkerParameters,androidx.glance.session.SessionManager,androidx.glance.session.TimeoutOptions,kotlinx.coroutines.CoroutineDispatcher,int,kotlin.jvm.internal.DefaultConstructorMarker)
+androidx.compose.runtime.InvalidationResult: androidx.compose.runtime.InvalidationResult[] values()
+androidx.core.view.ViewCompat$Api28Impl: void addOnUnhandledKeyEventListener(android.view.View,androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat)
+kotlin.collections.AbstractMutableSet: AbstractMutableSet()
+androidx.activity.Api34Impl: int swipeEdge(android.window.BackEvent)
+androidx.core.app.NotificationCompatBuilder$Api31Impl: android.app.Notification$Builder setForegroundServiceBehavior(android.app.Notification$Builder,int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.input.InputModeManager getInputModeManager()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.LayoutNode getRoot()
+androidx.work.ExistingWorkPolicy: androidx.work.ExistingWorkPolicy valueOf(java.lang.String)
+androidx.glance.appwidget.translators.ImageTranslatorApi31Impl: void applyTintColorFilter(androidx.glance.appwidget.TranslationContext,android.widget.RemoteViews,androidx.glance.unit.ColorProvider,int)
+androidx.glance.appwidget.protobuf.WireFormat$FieldType: androidx.glance.appwidget.protobuf.WireFormat$FieldType[] values()
+androidx.compose.ui.platform.ViewLayer: float getCameraDistancePx()
+androidx.core.app.AppOpsManagerCompat$Api23Impl: java.lang.String permissionToOp(java.lang.String)
+androidx.core.graphics.drawable.IconCompat$Api23Impl: android.graphics.drawable.Icon toIcon(androidx.core.graphics.drawable.IconCompat,android.content.Context)
+androidx.core.view.ViewCompat$Api28Impl: void removeOnUnhandledKeyEventListener(android.view.View,androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void registerIn(android.app.Activity)
+kotlin.time.DurationUnit: kotlin.time.DurationUnit[] values()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.text.font.Font$ResourceLoader getFontLoader()
+android.support.v4.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+androidx.core.app.NotificationCompatBuilder$Api28Impl: android.app.Notification$Builder addPerson(android.app.Notification$Builder,android.app.Person)
+androidx.glance.appwidget.TracingApi29Impl: void beginAsyncSection(java.lang.String,int)
+androidx.compose.ui.platform.AndroidComposeView: void setOnViewTreeOwnersAvailable(kotlin.jvm.functions.Function1)
+androidx.activity.ComponentActivity$Api33Impl: android.window.OnBackInvokedDispatcher getOnBackInvokedDispatcher(android.app.Activity)
+androidx.core.app.NotificationCompat$BubbleMetadata$Api29Impl: android.app.Notification$BubbleMetadata toPlatform(androidx.core.app.NotificationCompat$BubbleMetadata)
+androidx.compose.ui.platform.RenderNodeVerificationHelper24: void discardDisplayList(android.view.RenderNode)
+androidx.datastore.preferences.PreferencesProto$Value$ValueCase: androidx.datastore.preferences.PreferencesProto$Value$ValueCase[] values()
+androidx.work.ListenableWorker: ListenableWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.glance.appwidget.action.ApplyActionApi31Impl: void setOnCheckedChangeResponse(android.widget.RemoteViews,int,android.content.Intent)
+kotlinx.coroutines.android.AndroidExceptionPreHandler: void handleException(kotlin.coroutines.CoroutineContext,java.lang.Throwable)
+com.example.dmnharvestmini.HarvestDatabase: HarvestDatabase()
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder setSound(android.app.Notification$Builder,android.net.Uri,java.lang.Object)
+androidx.core.content.ContextCompat$Api26Impl: android.content.Intent registerReceiver(android.content.Context,android.content.BroadcastReceiver,android.content.IntentFilter,java.lang.String,android.os.Handler,int)
+androidx.glance.appwidget.protobuf.FieldType$Collection: androidx.glance.appwidget.protobuf.FieldType$Collection[] values()
+androidx.glance.appwidget.action.ListAdapterTrampolineApi26Impl: void startForegroundService(android.content.Context,android.content.Intent)
+androidx.compose.ui.autofill.AutofillApi26Helper: boolean isText(android.view.autofill.AutofillValue)
+androidx.core.view.ViewCompat$Api28Impl: java.lang.CharSequence getAccessibilityPaneTitle(android.view.View)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidComposeView$ViewTreeOwners get_viewTreeOwners()
+androidx.compose.ui.platform.WrapperRenderNodeLayerHelperMethods: void onDescendantInvalidated(androidx.compose.ui.platform.AndroidComposeView)
+androidx.core.os.BundleCompat$Api33Impl: java.io.Serializable getSerializable(android.os.Bundle,java.lang.String,java.lang.Class)
+androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver: ForceStopRunnable$BroadcastReceiver()
+androidx.work.BackoffPolicy: androidx.work.BackoffPolicy[] values()
+androidx.core.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.core.graphics.drawable.IconCompat$Api28Impl: android.net.Uri getUri(java.lang.Object)
+androidx.core.app.NotificationCompatBuilder$Api24Impl: android.app.Notification$Action$Builder setAllowGeneratedReplies(android.app.Notification$Action$Builder,boolean)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorStateList(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.core.app.NotificationCompatBuilder$Api29Impl: android.app.Notification$Builder setAllowSystemGeneratedContextualActions(android.app.Notification$Builder,boolean)
+com.example.dmnharvestmini.CaptureAction: CaptureAction()
+androidx.glance.appwidget.CollectionItemsApi31Impl: void setRemoteAdapter(android.widget.RemoteViews,int,androidx.glance.appwidget.RemoteCollectionItems)
+androidx.versionedparcelable.CustomVersionedParcelable: CustomVersionedParcelable()
+androidx.compose.runtime.Recomposer$State: androidx.compose.runtime.Recomposer$State[] values()
+androidx.activity.ComponentActivity: void setContentView(android.view.View)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityPaused(android.app.Activity)
+androidx.profileinstaller.ProfileInstallerInitializer: ProfileInstallerInitializer()
+kotlinx.coroutines.flow.SharingCommand: kotlinx.coroutines.flow.SharingCommand valueOf(java.lang.String)
+androidx.core.view.ViewConfigurationCompat$Api26Impl: float getScaledHorizontalScrollFactor(android.view.ViewConfiguration)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.modifier.ModifierLocalManager getModifierLocalManager()
+androidx.work.ExistingWorkPolicy: androidx.work.ExistingWorkPolicy[] values()
+androidx.core.view.ViewConfigurationCompat$Api26Impl: float getScaledVerticalScrollFactor(android.view.ViewConfiguration)
+androidx.activity.EdgeToEdgeApi29: void setUp(androidx.activity.SystemBarStyle,androidx.activity.SystemBarStyle,android.view.Window,android.view.View,boolean,boolean)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityStarted(android.app.Activity)
+androidx.core.view.ViewCompat$Api28Impl: void setAutofillId(android.view.View,androidx.core.view.autofill.AutofillIdCompat)
+androidx.compose.ui.autofill.AutofillType: androidx.compose.ui.autofill.AutofillType valueOf(java.lang.String)
+androidx.glance.appwidget.ApplyModifiersApi31Impl: void applyRoundedCorners(android.widget.RemoteViews,int,androidx.glance.unit.Dimension)
+androidx.glance.appwidget.LayoutType: androidx.glance.appwidget.LayoutType[] values()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.text.input.PlatformTextInputPluginRegistry getPlatformTextInputPluginRegistry()
+androidx.compose.ui.autofill.AutofillApi23Helper: void setDimens(android.view.ViewStructure,int,int,int,int,int,int)
+androidx.core.app.RemoteInput$Api26Impl: void addDataResultToIntent(androidx.core.app.RemoteInput,android.content.Intent,java.util.Map)
+androidx.glance.appwidget.RemoteViewsTranslatorApi28Impl: android.widget.RemoteViews copyRemoteViews(android.widget.RemoteViews)
+androidx.core.view.ViewCompat$Api28Impl: void setScreenReaderFocusable(android.view.View,boolean)
+androidx.compose.ui.platform.RenderNodeVerificationHelper28: int getSpotShadowColor(android.view.RenderNode)
+androidx.core.graphics.drawable.IconCompat: IconCompat()
+androidx.datastore.preferences.protobuf.WireFormat$JavaType: androidx.datastore.preferences.protobuf.WireFormat$JavaType valueOf(java.lang.String)
+androidx.glance.appwidget.WidgetLayoutImpl31: androidx.glance.appwidget.proto.LayoutProto$DimensionType toProto(androidx.glance.unit.Dimension)
+androidx.startup.InitializationProvider: InitializationProvider()
+androidx.glance.Visibility: androidx.glance.Visibility valueOf(java.lang.String)
+androidx.compose.ui.platform.ViewLayer: long getOwnerViewId()
+kotlin.random.Random: Random()
+androidx.compose.ui.unit.LayoutDirection: androidx.compose.ui.unit.LayoutDirection valueOf(java.lang.String)
+androidx.glance.appwidget.proto.LayoutProto$VerticalAlignment: androidx.glance.appwidget.proto.LayoutProto$VerticalAlignment[] values()
+androidx.glance.session.SessionWorker: SessionWorker(android.content.Context,androidx.work.WorkerParameters,androidx.glance.session.SessionManager,androidx.glance.session.TimeoutOptions,kotlinx.coroutines.CoroutineDispatcher)
+androidx.work.OutOfQuotaPolicy: androidx.work.OutOfQuotaPolicy valueOf(java.lang.String)
+androidx.core.app.AppOpsManagerCompat$Api23Impl: java.lang.Object getSystemService(android.content.Context,java.lang.Class)
+androidx.lifecycle.LegacySavedStateHandleController$OnRecreation: LegacySavedStateHandleController$OnRecreation()
+androidx.glance.unit.ColorProviderApi23Impl: int getColor(android.content.Context,int)
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setGroupAlertBehavior(android.app.Notification$Builder,int)
+androidx.glance.appwidget.protobuf.WireFormat$JavaType: androidx.glance.appwidget.protobuf.WireFormat$JavaType[] values()
+androidx.compose.ui.platform.ViewLayerContainer: void dispatchGetDisplayList()
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityStarted(android.app.Activity)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.WindowInfo getWindowInfo()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: ReportFragment$LifecycleCallbacks()
+androidx.datastore.preferences.protobuf.FieldType: androidx.datastore.preferences.protobuf.FieldType valueOf(java.lang.String)
+androidx.emoji2.text.ConcurrencyHelpers$Handler28Impl: android.os.Handler createAsync(android.os.Looper)
+androidx.compose.ui.node.LayoutNode$LayoutState: androidx.compose.ui.node.LayoutNode$LayoutState[] values()
+androidx.datastore.preferences.PreferencesProto$Value$ValueCase: androidx.datastore.preferences.PreferencesProto$Value$ValueCase valueOf(java.lang.String)
+androidx.compose.ui.platform.ViewLayerVerificationHelper28: void setOutlineSpotShadowColor(android.view.View,int)
+androidx.glance.appwidget.protobuf.ProtoSyntax: androidx.glance.appwidget.protobuf.ProtoSyntax[] values()
+androidx.compose.ui.platform.ViewLayerVerificationHelper31: void setRenderEffect(android.view.View,androidx.compose.ui.graphics.RenderEffect)
+androidx.core.graphics.drawable.IconCompat$Api26Impl: android.graphics.drawable.Drawable createAdaptiveIconDrawable(android.graphics.drawable.Drawable,android.graphics.drawable.Drawable)
+android.support.v4.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.glance.appwidget.LayoutSize: androidx.glance.appwidget.LayoutSize[] values()
+androidx.core.app.AppOpsManagerCompat$Api23Impl: int noteProxyOp(android.app.AppOpsManager,java.lang.String,java.lang.String)
+androidx.compose.ui.platform.ViewLayer$UniqueDrawingIdApi29: long getUniqueDrawingId(android.view.View)
+androidx.glance.appwidget.UnmanagedSessionReceiver: UnmanagedSessionReceiver()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AccessibilityManager getAccessibilityManager()
+androidx.compose.ui.platform.AndroidComposeView: void setLayoutDirection(androidx.compose.ui.unit.LayoutDirection)
+androidx.glance.appwidget.action.ApplyActionApi26Impl: android.app.PendingIntent getForegroundServicePendingIntent(android.content.Context,android.content.Intent)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorStateList(android.widget.RemoteViews,int,java.lang.String,android.content.res.ColorStateList,android.content.res.ColorStateList)
+androidx.datastore.preferences.protobuf.Writer$FieldOrder: androidx.datastore.preferences.protobuf.Writer$FieldOrder valueOf(java.lang.String)
+androidx.glance.Visibility: androidx.glance.Visibility[] values()
+androidx.compose.ui.platform.ViewLayer: long getLayerId()
+kotlin.time.DurationUnit: kotlin.time.DurationUnit valueOf(java.lang.String)
+androidx.core.app.NotificationCompatBuilder$Api29Impl: android.app.Notification$Action$Builder setContextual(android.app.Notification$Action$Builder,boolean)
+androidx.core.app.NotificationCompatBuilder$Api24Impl: android.app.Notification$Builder setCustomHeadsUpContentView(android.app.Notification$Builder,android.widget.RemoteViews)
+androidx.activity.OnBackPressedDispatcher$Api33Impl: void unregisterOnBackInvokedCallback(java.lang.Object,java.lang.Object)
+androidx.glance.appwidget.action.ActionTrampolineType: androidx.glance.appwidget.action.ActionTrampolineType[] values()
+androidx.datastore.preferences.protobuf.WireFormat$FieldType: androidx.datastore.preferences.protobuf.WireFormat$FieldType[] values()
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Action build(android.app.Notification$Action$Builder)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.input.pointer.PointerIconService getPointerIconService()
+androidx.glance.appwidget.GeneratedContainersForApi31Impl: java.util.Map registerChildren()
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityPreCreated(android.app.Activity,android.os.Bundle)
+androidx.glance.appwidget.MyPackageReplacedReceiver: MyPackageReplacedReceiver()
+androidx.core.graphics.drawable.IconCompat$Api28Impl: java.lang.String getResPackage(java.lang.Object)
+androidx.lifecycle.ProcessLifecycleOwner$Api29Impl: void registerActivityLifecycleCallbacks(android.app.Activity,android.app.Application$ActivityLifecycleCallbacks)
+android.support.v4.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.profileinstaller.FileSectionType: androidx.profileinstaller.FileSectionType valueOf(java.lang.String)
+androidx.compose.runtime.Recomposer$State: androidx.compose.runtime.Recomposer$State valueOf(java.lang.String)
+androidx.work.impl.workers.ConstraintTrackingWorker: ConstraintTrackingWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.compose.ui.autofill.AutofillApi26Helper: boolean isToggle(android.view.autofill.AutofillValue)
+androidx.glance.appwidget.GlanceRemoteViewsService: GlanceRemoteViewsService()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.unit.Density getDensity()
+androidx.core.content.pm.PackageInfoCompat$Api28Impl: long getLongVersionCode(android.content.pm.PackageInfo)
+androidx.core.os.BundleApi21ImplKt: void putSizeF(android.os.Bundle,java.lang.String,android.util.SizeF)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityDestroyed(android.app.Activity)
+androidx.glance.appwidget.proto.LayoutProto$LayoutType: androidx.glance.appwidget.proto.LayoutProto$LayoutType[] values()
+androidx.core.app.RemoteInput$Api29Impl: int getEditChoicesBeforeSending(java.lang.Object)
+androidx.compose.ui.node.LayoutNode$UsageByParent: androidx.compose.ui.node.LayoutNode$UsageByParent[] values()
+androidx.core.view.ViewCompat$Api28Impl: void setAccessibilityHeading(android.view.View,boolean)
+androidx.glance.appwidget.Api31Impl: android.widget.RemoteViews createRemoteViews(java.util.Map)
+androidx.compose.ui.autofill.AutofillApi26Helper: void setAutofillId(android.view.ViewStructure,android.view.autofill.AutofillId,int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.text.font.FontFamily$Resolver getFontFamilyResolver()
+androidx.work.impl.WorkDatabase_Impl: WorkDatabase_Impl()
+kotlinx.coroutines.selects.TrySelectDetailedResult: kotlinx.coroutines.selects.TrySelectDetailedResult valueOf(java.lang.String)
+kotlinx.coroutines.flow.SharingCommand: kotlinx.coroutines.flow.SharingCommand[] values()
+androidx.work.impl.background.systemalarm.RescheduleReceiver: RescheduleReceiver()
+androidx.work.ArrayCreatingInputMerger: ArrayCreatingInputMerger()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidAccessibilityManager getAccessibilityManager()
+androidx.core.app.AppOpsManagerCompat$Api29Impl: java.lang.String getOpPackageName(android.content.Context)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPaused(android.app.Activity)
+androidx.core.app.AppOpsManagerCompat$Api23Impl: int noteProxyOpNoThrow(android.app.AppOpsManager,java.lang.String,java.lang.String)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setIntDimen(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.glance.appwidget.protobuf.FieldType: androidx.glance.appwidget.protobuf.FieldType[] values()
+androidx.core.os.BundleCompat$Api33Impl: java.lang.Object getParcelable(android.os.Bundle,java.lang.String,java.lang.Class)
+androidx.work.WorkInfo$State: androidx.work.WorkInfo$State valueOf(java.lang.String)
+androidx.room.RoomDatabase$JournalMode: androidx.room.RoomDatabase$JournalMode[] values()
+androidx.glance.appwidget.action.StrictModeVmPolicyApi31Impl: android.os.StrictMode$VmPolicy$Builder permitUnsafeIntentLaunch(android.os.StrictMode$VmPolicy$Builder)
+android.support.v4.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+androidx.glance.appwidget.GeneratedContainersForApi31Impl: java.util.Map registerContainers()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.OwnerSnapshotObserver getSnapshotObserver()
+androidx.core.content.res.ResourcesCompat$Api23Impl: int getColor(android.content.res.Resources,int,android.content.res.Resources$Theme)
+androidx.work.impl.utils.futures.DirectExecutor: androidx.work.impl.utils.futures.DirectExecutor[] values()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityStopped(android.app.Activity)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.ViewConfiguration getViewConfiguration()
+androidx.glance.appwidget.action.ApplyActionApi31Impl: void unsetOnClickResponse(android.widget.RemoteViews,int)
+androidx.work.impl.diagnostics.DiagnosticsReceiver: DiagnosticsReceiver()
+androidx.work.OverwritingInputMerger: OverwritingInputMerger()
+androidx.profileinstaller.ProfileInstallReceiver: ProfileInstallReceiver()
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Builder setSortKey(android.app.Notification$Builder,java.lang.String)
+kotlinx.coroutines.channels.BufferOverflow: kotlinx.coroutines.channels.BufferOverflow[] values()
+androidx.core.app.AppOpsManagerCompat$Api29Impl: android.app.AppOpsManager getSystemService(android.content.Context)
+androidx.glance.session.Api33Impl: boolean isLightIdleOrLowPowerStandby(android.os.PowerManager)
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder setColor(android.app.Notification$Builder,int)
+androidx.compose.ui.platform.AbstractComposeView: void getDisposeViewCompositionStrategy$annotations()
+androidx.glance.appwidget.protobuf.JavaType: androidx.glance.appwidget.protobuf.JavaType[] values()
+androidx.glance.appwidget.action.InvisibleActionTrampolineActivity: InvisibleActionTrampolineActivity()
+androidx.core.app.NotificationManagerCompat$Api24Impl: boolean areNotificationsEnabled(android.app.NotificationManager)
+com.example.dmnharvestmini.DMNHarvestWidgetReceiver: DMNHarvestWidgetReceiver()
+androidx.core.app.NotificationCompatBuilder$Api29Impl: android.app.Notification$Builder setBubbleMetadata(android.app.Notification$Builder,android.app.Notification$BubbleMetadata)
+androidx.glance.appwidget.LayoutType: androidx.glance.appwidget.LayoutType valueOf(java.lang.String)
+androidx.core.app.ActivityCompat$Api23Impl: void requestPermissions(android.app.Activity,java.lang.String[],int)
+androidx.core.app.NotificationCompatBuilder$Api31Impl: android.app.Notification$Action$Builder setAuthenticationRequired(android.app.Notification$Action$Builder,boolean)
+androidx.work.BackoffPolicy: androidx.work.BackoffPolicy valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.semantics.SemanticsOwner getSemanticsOwner()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.focus.FocusOwner getFocusOwner()
+androidx.glance.appwidget.proto.LayoutProto$DimensionType: androidx.glance.appwidget.proto.LayoutProto$DimensionType[] values()
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityDestroyed(android.app.Activity)
+androidx.glance.appwidget.LayoutSize: androidx.glance.appwidget.LayoutSize valueOf(java.lang.String)
+androidx.compose.ui.platform.ViewLayer: void setInvalidated(boolean)
+androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver: ConstraintProxyUpdateReceiver()
+androidx.lifecycle.ProcessLifecycleInitializer: ProcessLifecycleInitializer()
+androidx.compose.ui.autofill.AutofillApi26Helper: java.lang.CharSequence textValue(android.view.autofill.AutofillValue)
+androidx.core.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.compose.ui.platform.AndroidComposeView: android.view.View getView()
+androidx.core.app.RemoteInput$Api20Impl: void addResultsToIntent(java.lang.Object,android.content.Intent,android.os.Bundle)
+androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver: ActionCallbackBroadcastReceiver()
+androidx.core.os.BundleCompat$Api33Impl: android.util.SparseArray getSparseParcelableArray(android.os.Bundle,java.lang.String,java.lang.Class)
+androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy: ConstraintProxy$NetworkStateProxy()
+kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState: kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState valueOf(java.lang.String)
+androidx.datastore.preferences.protobuf.JavaType: androidx.datastore.preferences.protobuf.JavaType[] values()
+kotlinx.coroutines.android.AndroidDispatcherFactory: kotlinx.coroutines.MainCoroutineDispatcher createDispatcher(java.util.List)
+androidx.glance.appwidget.proto.LayoutProto$NodeIdentity: androidx.glance.appwidget.proto.LayoutProto$NodeIdentity[] values()
+com.example.dmnharvestmini.VoiceCaptureActivity: VoiceCaptureActivity()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setFloatDimen(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.glance.appwidget.LayoutSelectionApi31Impl: android.widget.RemoteViews remoteViews(java.lang.String,int,int)
+androidx.core.app.RemoteInput$Api26Impl: android.app.RemoteInput$Builder setAllowDataType(android.app.RemoteInput$Builder,java.lang.String,boolean)
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setShortcutId(android.app.Notification$Builder,java.lang.String)
+androidx.compose.ui.text.font.ResourceFontHelper: android.graphics.Typeface load(android.content.Context,androidx.compose.ui.text.font.ResourceFont)
+androidx.core.view.ViewCompat$Api28Impl: boolean isAccessibilityHeading(android.view.View)
+androidx.emoji2.text.EmojiExclusions$EmojiExclusions_Api34: java.util.Set getExclusions()
+androidx.glance.appwidget.action.ApplyActionApi31Impl: void setOnCheckedChangeResponse(android.widget.RemoteViews,int,android.app.PendingIntent)
+androidx.compose.ui.platform.AndroidComposeView: long getMeasureIteration()
+androidx.compose.ui.autofill.AutofillApi23Helper: int addChildCount(android.view.ViewStructure,int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.text.input.TextInputService getTextInputService()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPreStopped(android.app.Activity)
+androidx.glance.appwidget.CollectionItemsApi31Impl: android.widget.RemoteViews$RemoteCollectionItems toPlatformCollectionItems(androidx.glance.appwidget.RemoteCollectionItems)
+androidx.datastore.preferences.protobuf.JavaType: androidx.datastore.preferences.protobuf.JavaType valueOf(java.lang.String)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityStopped(android.app.Activity)
+kotlinx.coroutines.CoroutineStart: kotlinx.coroutines.CoroutineStart[] values()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.unit.LayoutDirection getLayoutDirection()
+androidx.compose.ui.platform.AndroidComposeView: kotlin.coroutines.CoroutineContext getCoroutineContext()
+androidx.glance.appwidget.proto.LayoutProto$VerticalAlignment: androidx.glance.appwidget.proto.LayoutProto$VerticalAlignment valueOf(java.lang.String)
+androidx.work.impl.workers.CombineContinuationsWorker: CombineContinuationsWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy: ConstraintProxy$BatteryChargingProxy()
+androidx.core.os.BundleCompat$Api33Impl: java.lang.Object[] getParcelableArray(android.os.Bundle,java.lang.String,java.lang.Class)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidComposeView$ViewTreeOwners getViewTreeOwners()
+androidx.compose.runtime.InvalidationResult: androidx.compose.runtime.InvalidationResult valueOf(java.lang.String)
+androidx.core.content.ContextCompat$Api26Impl: android.content.ComponentName startForegroundService(android.content.Context,android.content.Intent)
+androidx.glance.session.SessionWorker: SessionWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostStarted(android.app.Activity)
+androidx.core.content.pm.PackageInfoCompat$Api28Impl: boolean hasSigningCertificate(android.content.pm.PackageManager,java.lang.String,byte[],int)
+androidx.core.app.RemoteInput$Api29Impl: android.app.RemoteInput$Builder setEditChoicesBeforeSending(android.app.RemoteInput$Builder,int)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Action$Builder addRemoteInput(android.app.Notification$Action$Builder,android.app.RemoteInput)
+androidx.glance.appwidget.ApplyModifiersApi31Impl: void setViewWidth(android.widget.RemoteViews,int,androidx.glance.unit.Dimension)
+androidx.glance.appwidget.proto.LayoutProto$HorizontalAlignment: androidx.glance.appwidget.proto.LayoutProto$HorizontalAlignment[] values()
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityResumed(android.app.Activity)
+androidx.core.app.NotificationCompatBuilder$Api23Impl: android.app.Notification$Builder setLargeIcon(android.app.Notification$Builder,android.graphics.drawable.Icon)
+androidx.work.impl.workers.DiagnosticsWorker: DiagnosticsWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.core.view.ViewCompat$Api28Impl: java.lang.Object requireViewById(android.view.View,int)
+androidx.activity.OnBackPressedDispatcher$Api33Impl: android.window.OnBackInvokedCallback createOnBackInvokedCallback(kotlin.jvm.functions.Function0)
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder setVisibility(android.app.Notification$Builder,int)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Builder addAction(android.app.Notification$Builder,android.app.Notification$Action)
+androidx.glance.appwidget.action.ActionTrampolineType: androidx.glance.appwidget.action.ActionTrampolineType valueOf(java.lang.String)
+androidx.core.graphics.drawable.IconCompat$Api30Impl: android.graphics.drawable.Icon createWithAdaptiveBitmapContentUri(android.net.Uri)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: ProcessLifecycleOwner$attach$1$onActivityPreCreated$1(androidx.lifecycle.ProcessLifecycleOwner)
+androidx.room.Index$Order: androidx.room.Index$Order[] values()
+androidx.core.app.NotificationCompat$BubbleMetadata$Api30Impl: android.app.Notification$BubbleMetadata toPlatform(androidx.core.app.NotificationCompat$BubbleMetadata)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.autofill.AutofillTree getAutofillTree()
+androidx.compose.ui.platform.ViewLayerVerificationHelper28: void setOutlineAmbientShadowColor(android.view.View,int)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event valueOf(java.lang.String)
+androidx.compose.ui.autofill.AutofillApi26Helper: boolean isDate(android.view.autofill.AutofillValue)
+androidx.activity.Api34Impl: float touchY(android.window.BackEvent)
+androidx.core.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.core.view.WindowCompat$Api30Impl: void setDecorFitsSystemWindows(android.view.Window,boolean)
+androidx.core.graphics.PaintCompat$Api23Impl: boolean hasGlyph(android.graphics.Paint,java.lang.String)
+androidx.glance.appwidget.protobuf.GeneratedMessageLite$MethodToInvoke: androidx.glance.appwidget.protobuf.GeneratedMessageLite$MethodToInvoke[] values()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setFloatDimenAttr(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.compose.ui.autofill.AutofillType: androidx.compose.ui.autofill.AutofillType[] values()
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder setPublicVersion(android.app.Notification$Builder,android.app.Notification)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.core.app.NotificationCompatBuilder$Api23Impl: android.app.Notification$Action$Builder createBuilder(android.graphics.drawable.Icon,java.lang.CharSequence,android.app.PendingIntent)
+androidx.core.content.pm.PackageInfoCompat$Api28Impl: android.content.pm.Signature[] getSigningCertificateHistory(android.content.pm.SigningInfo)
+androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName: androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidViewsHandler: java.util.HashMap getHolderToLayoutNode()
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setColorized(android.app.Notification$Builder,boolean)
+androidx.glance.session.Api23Impl: boolean isIdle(android.os.PowerManager)
+androidx.glance.appwidget.GlanceRemoteViewsServiceKt: void setRemoteAdapter(android.widget.RemoteViews,android.content.Context,int,int,java.lang.String,androidx.glance.appwidget.RemoteCollectionItems)
+androidx.core.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: void onActivityPostStarted(android.app.Activity)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setIntDimenAttr(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setCharSequenceAttr(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy: ConstraintProxy$BatteryNotLowProxy()
+androidx.core.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+androidx.core.view.ViewCompat$Api28Impl: void setAccessibilityPaneTitle(android.view.View,java.lang.CharSequence)
+androidx.glance.appwidget.protobuf.JavaType: androidx.glance.appwidget.protobuf.JavaType valueOf(java.lang.String)
+androidx.compose.ui.node.LayoutNode$UsageByParent: androidx.compose.ui.node.LayoutNode$UsageByParent valueOf(java.lang.String)
+androidx.activity.EdgeToEdgeApi23: void setUp(androidx.activity.SystemBarStyle,androidx.activity.SystemBarStyle,android.view.Window,android.view.View,boolean,boolean)
+androidx.core.app.NotificationCompatBuilder$Api24Impl: android.app.Notification$Builder setRemoteInputHistory(android.app.Notification$Builder,java.lang.CharSequence[])
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColor(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.datastore.preferences.protobuf.WireFormat$FieldType: androidx.datastore.preferences.protobuf.WireFormat$FieldType valueOf(java.lang.String)
+androidx.compose.ui.platform.RenderNodeApi29VerificationHelper: void setRenderEffect(android.graphics.RenderNode,androidx.compose.ui.graphics.RenderEffect)
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event[] values()
+androidx.compose.ui.platform.AndroidComposeView: boolean getHasPendingMeasureOrLayout()
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Builder setGroupSummary(android.app.Notification$Builder,boolean)
+androidx.core.app.RemoteInput$Api20Impl: android.os.Bundle getResultsFromIntent(android.content.Intent)
+androidx.core.graphics.drawable.IconCompat$Api23Impl: android.net.Uri getUri(java.lang.Object)
+androidx.profileinstaller.ProfileInstallerInitializer$Handler28Impl: android.os.Handler createAsync(android.os.Looper)
+androidx.activity.Api34Impl: android.window.BackEvent createOnBackEvent(float,float,float,int)
+androidx.glance.appwidget.proto.LayoutProto$HorizontalAlignment: androidx.glance.appwidget.proto.LayoutProto$HorizontalAlignment valueOf(java.lang.String)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Action$Builder createBuilder(int,java.lang.CharSequence,android.app.PendingIntent)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Builder setGroup(android.app.Notification$Builder,java.lang.String)
+androidx.glance.appwidget.protobuf.ProtoSyntax: androidx.glance.appwidget.protobuf.ProtoSyntax valueOf(java.lang.String)
+androidx.core.app.RemoteInput$Api26Impl: java.util.Map getDataResultsFromIntent(android.content.Intent,java.lang.String)
+androidx.compose.ui.autofill.AutofillApi26Helper: boolean isList(android.view.autofill.AutofillValue)
+androidx.core.os.BundleApi21ImplKt: void putSize(android.os.Bundle,java.lang.String,android.util.Size)
+androidx.compose.ui.platform.RenderNodeVerificationHelper28: int getAmbientShadowColor(android.view.RenderNode)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPrePaused(android.app.Activity)
+androidx.profileinstaller.ProfileVerifier$Api33Impl: android.content.pm.PackageInfo getPackageInfo(android.content.pm.PackageManager,android.content.Context)

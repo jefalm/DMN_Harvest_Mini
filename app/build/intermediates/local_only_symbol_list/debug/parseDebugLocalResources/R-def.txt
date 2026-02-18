@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_harvest_widget
+id btn_generate
+id btn_refresh
+id list_thoughts
+id title
+layout activity_main
+layout glance_app_widget
+string widget_description
+xml dmnharvest_widget_info
