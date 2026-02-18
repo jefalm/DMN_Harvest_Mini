@@ -42,15 +42,22 @@ class HarvestForegroundService : Service() {
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
-        return NotificationCompat.Builder(this, CHANNEL_ID)
+        val builder = NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("DMN Harvest")
             .setContentText("Tap to capture a thought")
-            .setSmallIcon(R.drawable.ic_harvest_widget) // Using existing icon
-            .setOngoing(true)
-            .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-            .setVisibility(NotificationCompat.VISIBILITY_PUBLIC) // Visible on lock screen
+            .setSmallIcon(R.drawable.ic_harvest_widget)
+            .setOngoing(true) // Prevents manual swipe-away
+            .setSilent(true)   // Keep it quiet as a background utility
+            .setPriority(NotificationCompat.PRIORITY_LOW)
+            .setCategory(NotificationCompat.CATEGORY_SERVICE) // Helps survive "Clear all"
+            .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
             .setContentIntent(pendingIntent)
-            .build()
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            builder.setForegroundServiceBehavior(NotificationCompat.FOREGROUND_SERVICE_IMMEDIATE)
+        }
+
+        return builder.build()
     }
 
     private fun createNotificationChannel() {
@@ -58,9 +65,10 @@ class HarvestForegroundService : Service() {
             val serviceChannel = NotificationChannel(
                 CHANNEL_ID,
                 "Harvest Service Channel",
-                NotificationManager.IMPORTANCE_DEFAULT
+                NotificationManager.IMPORTANCE_LOW // Low importance prevents "Clear all" on many devices
             ).apply {
                 description = "Keeps DMN Harvest active for quick access"
+                lockscreenVisibility = Notification.VISIBILITY_PUBLIC
             }
             val manager = getSystemService(NotificationManager::class.java)
             manager.createNotificationChannel(serviceChannel)

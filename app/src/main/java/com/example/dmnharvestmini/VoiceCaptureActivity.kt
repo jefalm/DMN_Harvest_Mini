@@ -16,7 +16,6 @@ import android.view.WindowManager
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.ComponentActivity
-import androidx.activity.enableEdgeToEdge
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
@@ -30,7 +29,6 @@ class VoiceCaptureActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
-        enableEdgeToEdge()
         setupLockScreenVisibility()
         
         setContentView(R.layout.activity_voice_capture)
@@ -52,7 +50,6 @@ class VoiceCaptureActivity : ComponentActivity() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {
             setShowWhenLocked(true)
             setTurnScreenOn(true)
-            // Removed keyguardManager.requestDismissKeyguard(this, null) to stop forcing unlock
         } else {
             @Suppress("DEPRECATION")
             window.addFlags(
@@ -78,7 +75,7 @@ class VoiceCaptureActivity : ComponentActivity() {
 
     private fun startSpeechRecognition() {
         isRecognizing = true
-        performHapticFeedback()
+        performMaxHapticFeedback()
         
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this)
         val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
@@ -116,7 +113,7 @@ class VoiceCaptureActivity : ComponentActivity() {
                     lifecycleScope.launch {
                         harvestRepository.saveThought(thought)
                         Toast.makeText(this@VoiceCaptureActivity, "Harvested: \"$thought\"", Toast.LENGTH_SHORT).show()
-                        performHapticFeedback()
+                        performMaxHapticFeedback()
                         finish()
                     }
                 } ?: finish()
@@ -129,7 +126,7 @@ class VoiceCaptureActivity : ComponentActivity() {
         speechRecognizer?.startListening(intent)
     }
 
-    private fun performHapticFeedback() {
+    private fun performMaxHapticFeedback() {
         val vibrator = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             val vibratorManager = getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as VibratorManager
             vibratorManager.defaultVibrator
@@ -137,7 +134,10 @@ class VoiceCaptureActivity : ComponentActivity() {
             @Suppress("DEPRECATION")
             getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
         }
-        vibrator.vibrate(VibrationEffect.createOneShot(50, VibrationEffect.DEFAULT_AMPLITUDE))
+        
+        // 255 is the maximum amplitude value in Android's VibrationEffect
+        val effect = VibrationEffect.createOneShot(100, 255)
+        vibrator.vibrate(effect)
     }
 
     override fun onDestroy() {

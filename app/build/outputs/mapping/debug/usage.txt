@@ -74,13 +74,15 @@ androidx.activity.ComponentActivity:
     public final void removeOnTrimMemoryListener(androidx.core.util.Consumer)
     public final void removeOnUserLeaveHintListener(java.lang.Runnable)
 androidx.activity.ComponentDialog
-androidx.activity.EdgeToEdge:
-    public static final void enable(androidx.activity.ComponentActivity)
-    public static final void enable(androidx.activity.ComponentActivity,androidx.activity.SystemBarStyle)
-    public static final int getDefaultDarkScrim()
-    public static synthetic void getDefaultDarkScrim$annotations()
-    public static final int getDefaultLightScrim()
-    public static synthetic void getDefaultLightScrim$annotations()
+androidx.activity.EdgeToEdge
+androidx.activity.EdgeToEdgeApi21
+androidx.activity.EdgeToEdgeApi23
+androidx.activity.EdgeToEdgeApi26
+androidx.activity.EdgeToEdgeApi28
+androidx.activity.EdgeToEdgeApi29
+androidx.activity.EdgeToEdgeApi30
+androidx.activity.EdgeToEdgeBase
+androidx.activity.EdgeToEdgeImpl
 androidx.activity.FullyDrawnReporter:
     public final void addOnReportDrawnListener(kotlin.jvm.functions.Function0)
     public final void addReporter()
@@ -122,17 +124,11 @@ androidx.activity.PipHintTrackerKt
 androidx.activity.R$id:
     private void <init>()
 androidx.activity.R
+androidx.activity.SystemBarStyle$Companion$auto$1
 androidx.activity.SystemBarStyle$Companion$dark$1
 androidx.activity.SystemBarStyle$Companion$light$1
-androidx.activity.SystemBarStyle$Companion:
-    public final androidx.activity.SystemBarStyle auto(int,int)
-    public final androidx.activity.SystemBarStyle dark(int)
-    public final androidx.activity.SystemBarStyle light(int,int)
-androidx.activity.SystemBarStyle:
-    public static final androidx.activity.SystemBarStyle auto(int,int)
-    public static final androidx.activity.SystemBarStyle auto(int,int,kotlin.jvm.functions.Function1)
-    public static final androidx.activity.SystemBarStyle dark(int)
-    public static final androidx.activity.SystemBarStyle light(int,int)
+androidx.activity.SystemBarStyle$Companion
+androidx.activity.SystemBarStyle
 androidx.activity.ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$1
 androidx.activity.ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2
 androidx.activity.ViewTreeFullyDrawnReporterOwner:
@@ -10324,7 +10320,6 @@ androidx.core.app.NotificationCompat$Builder:
     public androidx.core.app.NotificationCompat$Builder setAutoCancel(boolean)
     public androidx.core.app.NotificationCompat$Builder setBadgeIconType(int)
     public androidx.core.app.NotificationCompat$Builder setBubbleMetadata(androidx.core.app.NotificationCompat$BubbleMetadata)
-    public androidx.core.app.NotificationCompat$Builder setCategory(java.lang.String)
     public androidx.core.app.NotificationCompat$Builder setChannelId(java.lang.String)
     public androidx.core.app.NotificationCompat$Builder setChronometerCountDown(boolean)
     public androidx.core.app.NotificationCompat$Builder setColor(int)
@@ -10337,7 +10332,6 @@ androidx.core.app.NotificationCompat$Builder:
     public androidx.core.app.NotificationCompat$Builder setDefaults(int)
     public androidx.core.app.NotificationCompat$Builder setDeleteIntent(android.app.PendingIntent)
     public androidx.core.app.NotificationCompat$Builder setExtras(android.os.Bundle)
-    public androidx.core.app.NotificationCompat$Builder setForegroundServiceBehavior(int)
     public androidx.core.app.NotificationCompat$Builder setFullScreenIntent(android.app.PendingIntent,boolean)
     public androidx.core.app.NotificationCompat$Builder setGroup(java.lang.String)
     public androidx.core.app.NotificationCompat$Builder setGroupAlertBehavior(int)
@@ -10357,7 +10351,6 @@ androidx.core.app.NotificationCompat$Builder:
     public androidx.core.app.NotificationCompat$Builder setShortcutId(java.lang.String)
     public androidx.core.app.NotificationCompat$Builder setShortcutInfo(androidx.core.content.pm.ShortcutInfoCompat)
     public androidx.core.app.NotificationCompat$Builder setShowWhen(boolean)
-    public androidx.core.app.NotificationCompat$Builder setSilent(boolean)
     public androidx.core.app.NotificationCompat$Builder setSmallIcon(int,int)
     public androidx.core.app.NotificationCompat$Builder setSmallIcon(androidx.core.graphics.drawable.IconCompat)
     public androidx.core.app.NotificationCompat$Builder setSortKey(java.lang.String)
@@ -11733,23 +11726,10 @@ androidx.core.view.PointerIconCompat$Api24Impl
 androidx.core.view.PointerIconCompat
 androidx.core.view.ScaleGestureDetectorCompat
 androidx.core.view.ScrollingView
-androidx.core.view.SoftwareKeyboardControllerCompat$Impl20:
-    void hide()
-    private static synthetic void lambda$show$0(android.view.View)
-    void show()
-androidx.core.view.SoftwareKeyboardControllerCompat$Impl30:
-    private android.view.WindowInsetsController mWindowInsetsController
-    void <init>(android.view.WindowInsetsController)
-    void hide()
-    private static synthetic void lambda$hide$0(java.util.concurrent.atomic.AtomicBoolean,android.view.WindowInsetsController,int)
-    void show()
-androidx.core.view.SoftwareKeyboardControllerCompat$Impl:
-    void hide()
-    void show()
-androidx.core.view.SoftwareKeyboardControllerCompat:
-    void <init>(android.view.WindowInsetsController)
-    public void hide()
-    public void show()
+androidx.core.view.SoftwareKeyboardControllerCompat$Impl20
+androidx.core.view.SoftwareKeyboardControllerCompat$Impl30
+androidx.core.view.SoftwareKeyboardControllerCompat$Impl
+androidx.core.view.SoftwareKeyboardControllerCompat
 androidx.core.view.TintableBackgroundView
 androidx.core.view.TreeIterator
 androidx.core.view.VelocityTrackerCompat$Api34Impl
@@ -12087,18 +12067,10 @@ androidx.core.view.ViewPropertyAnimatorListenerAdapter
 androidx.core.view.ViewPropertyAnimatorUpdateListener
 androidx.core.view.ViewStructureCompat$Api23Impl
 androidx.core.view.ViewStructureCompat
-androidx.core.view.WindowCompat$Api16Impl:
-    private void <init>()
+androidx.core.view.WindowCompat$Api16Impl
 androidx.core.view.WindowCompat$Api28Impl
-androidx.core.view.WindowCompat$Api30Impl:
-    private void <init>()
-androidx.core.view.WindowCompat:
-    public static final int FEATURE_ACTION_BAR
-    public static final int FEATURE_ACTION_BAR_OVERLAY
-    public static final int FEATURE_ACTION_MODE_OVERLAY
-    private void <init>()
-    public static androidx.core.view.WindowInsetsControllerCompat getInsetsController(android.view.Window,android.view.View)
-    public static android.view.View requireViewById(android.view.Window,int)
+androidx.core.view.WindowCompat$Api30Impl
+androidx.core.view.WindowCompat
 androidx.core.view.WindowInsetsAnimationCompat$BoundsCompat
 androidx.core.view.WindowInsetsAnimationCompat$Callback$DispatchMode
 androidx.core.view.WindowInsetsAnimationCompat$Callback
@@ -12131,59 +12103,14 @@ androidx.core.view.WindowInsetsCompat$Type$InsetsType
 androidx.core.view.WindowInsetsCompat$Type
 androidx.core.view.WindowInsetsCompat$TypeImpl30
 androidx.core.view.WindowInsetsCompat
-androidx.core.view.WindowInsetsControllerCompat$Impl20:
-    void addOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
-    void controlWindowInsetsAnimation(int,long,android.view.animation.Interpolator,android.os.CancellationSignal,androidx.core.view.WindowInsetsAnimationControlListenerCompat)
-    int getSystemBarsBehavior()
-    void hide(int)
-    private void hideForType(int)
-    void removeOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
-    void setSystemBarsBehavior(int)
-    void show(int)
-    private void showForType(int)
-androidx.core.view.WindowInsetsControllerCompat$Impl23:
-    public boolean isAppearanceLightStatusBars()
-androidx.core.view.WindowInsetsControllerCompat$Impl26:
-    public boolean isAppearanceLightNavigationBars()
+androidx.core.view.WindowInsetsControllerCompat$Impl20
+androidx.core.view.WindowInsetsControllerCompat$Impl23
+androidx.core.view.WindowInsetsControllerCompat$Impl26
 androidx.core.view.WindowInsetsControllerCompat$Impl30$1
-androidx.core.view.WindowInsetsControllerCompat$Impl30:
-    void addOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
-    void controlWindowInsetsAnimation(int,long,android.view.animation.Interpolator,android.os.CancellationSignal,androidx.core.view.WindowInsetsAnimationControlListenerCompat)
-    int getSystemBarsBehavior()
-    void hide(int)
-    public boolean isAppearanceLightNavigationBars()
-    public boolean isAppearanceLightStatusBars()
-    private synthetic void lambda$addOnControllableInsetsChangedListener$0(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener,android.view.WindowInsetsController,int)
-    void removeOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
-    void setSystemBarsBehavior(int)
-    void show(int)
-androidx.core.view.WindowInsetsControllerCompat$Impl:
-    void addOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
-    void controlWindowInsetsAnimation(int,long,android.view.animation.Interpolator,android.os.CancellationSignal,androidx.core.view.WindowInsetsAnimationControlListenerCompat)
-    int getSystemBarsBehavior()
-    void hide(int)
-    public boolean isAppearanceLightNavigationBars()
-    public boolean isAppearanceLightStatusBars()
-    void removeOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
-    void setSystemBarsBehavior(int)
-    void show(int)
+androidx.core.view.WindowInsetsControllerCompat$Impl30
+androidx.core.view.WindowInsetsControllerCompat$Impl
 androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener
-androidx.core.view.WindowInsetsControllerCompat:
-    public static final int BEHAVIOR_DEFAULT
-    public static final int BEHAVIOR_SHOW_BARS_BY_SWIPE
-    public static final int BEHAVIOR_SHOW_BARS_BY_TOUCH
-    public static final int BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
-    private void <init>(android.view.WindowInsetsController)
-    public void addOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
-    public void controlWindowInsetsAnimation(int,long,android.view.animation.Interpolator,android.os.CancellationSignal,androidx.core.view.WindowInsetsAnimationControlListenerCompat)
-    public int getSystemBarsBehavior()
-    public void hide(int)
-    public boolean isAppearanceLightNavigationBars()
-    public boolean isAppearanceLightStatusBars()
-    public void removeOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
-    public void setSystemBarsBehavior(int)
-    public void show(int)
-    public static androidx.core.view.WindowInsetsControllerCompat toWindowInsetsControllerCompat(android.view.WindowInsetsController)
+androidx.core.view.WindowInsetsControllerCompat
 androidx.core.view.accessibility.AccessibilityClickableSpanCompat
 androidx.core.view.accessibility.AccessibilityEventCompat$Api34Impl
 androidx.core.view.accessibility.AccessibilityEventCompat$ContentChangeType
@@ -26568,9 +26495,6 @@ org.jetbrains.annotations.UnmodifiableView
 org.jetbrains.annotations.VisibleForTesting
 _COROUTINE.CoroutineDebuggingKt:
     public static final java.lang.String getARTIFICIAL_FRAME_PACKAGE_NAME()
-androidx.activity.EdgeToEdgeApi21
-androidx.activity.EdgeToEdgeBase:
-    public void setUp(androidx.activity.SystemBarStyle,androidx.activity.SystemBarStyle,android.view.Window,android.view.View,boolean,boolean)
 androidx.activity.ImmLeaksCleaner:
     public void <init>(android.app.Activity)
 androidx.activity.OnBackPressedCallback:
