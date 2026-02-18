@@ -17766,7 +17766,6 @@ androidx.glance.layout.Alignment$Companion:
     public final androidx.glance.layout.Alignment getBottomEnd()
     public final androidx.glance.layout.Alignment getBottomStart()
     public final androidx.glance.layout.Alignment getCenterEnd()
-    public final int getCenterVertically-mnfRV0w()
     public final int getEnd-PGIyAqw()
     public final androidx.glance.layout.Alignment getTopCenter()
     public final androidx.glance.layout.Alignment getTopEnd()
@@ -17776,7 +17775,6 @@ androidx.glance.layout.Alignment:
     public static final synthetic androidx.glance.layout.Alignment access$getBottomEnd$cp()
     public static final synthetic androidx.glance.layout.Alignment access$getBottomStart$cp()
     public static final synthetic androidx.glance.layout.Alignment access$getCenterEnd$cp()
-    public static final synthetic int access$getCenterVertically$cp()
     public static final synthetic int access$getEnd$cp()
     public static final synthetic androidx.glance.layout.Alignment access$getTopCenter$cp()
     public static final synthetic androidx.glance.layout.Alignment access$getTopEnd$cp()
@@ -19560,6 +19558,7 @@ com.example.dmnharvestmini.ThoughtDao_Impl$4
 com.example.dmnharvestmini.ThoughtDao_Impl:
     public java.lang.Object getAllThoughts(kotlin.coroutines.Continuation)
 com.example.dmnharvestmini.databinding.ActivityMainBinding
+com.example.dmnharvestmini.databinding.ActivityVoiceCaptureBinding
 com.example.dmnharvestmini.databinding.GlanceAppWidgetBinding
 kotlin.ArrayIntrinsicsKt
 kotlin.BuilderInference

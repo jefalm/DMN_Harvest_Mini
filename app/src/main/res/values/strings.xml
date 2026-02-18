@@ -1,3 +1,4 @@
 <resources>
-    <string name="widget_description">Starts voice capture from the lock screen or home screen.</string>
+    <string name="app_name">DMN Harvest Mini</string>
+    <string name="widget_description">Quickly capture thoughts from your lock screen</string>
 </resources>

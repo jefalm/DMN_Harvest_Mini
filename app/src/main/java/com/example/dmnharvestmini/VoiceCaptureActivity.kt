@@ -13,6 +13,7 @@ import android.speech.RecognitionListener
 import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
 import android.view.WindowManager
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
@@ -24,6 +25,7 @@ class VoiceCaptureActivity : ComponentActivity() {
 
     private lateinit var harvestRepository: HarvestRepository
     private var speechRecognizer: SpeechRecognizer? = null
+    private var isRecognizing = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,20 +33,18 @@ class VoiceCaptureActivity : ComponentActivity() {
         enableEdgeToEdge()
         setupLockScreenVisibility()
         
+        setContentView(R.layout.activity_voice_capture)
+        
         val database = HarvestDatabase.getDatabase(this)
         harvestRepository = HarvestRepository(database.thoughtDao())
         
-        if (ContextCompat.checkSelfPermission(
-                this,
-                Manifest.permission.RECORD_AUDIO
-            ) == PackageManager.PERMISSION_GRANTED
-        ) {
-            startSpeechRecognition()
-        } else {
-            // Permission cannot be granted while locked. 
-            // User must grant it once while unlocked.
-            Toast.makeText(this, "Microphone permission required. Please unlock and grant.", Toast.LENGTH_LONG).show()
-            finish()
+        window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if (!isRecognizing) {
+            checkPermissionAndStart()
         }
     }
 
@@ -52,6 +52,7 @@ class VoiceCaptureActivity : ComponentActivity() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {
             setShowWhenLocked(true)
             setTurnScreenOn(true)
+            // Removed keyguardManager.requestDismissKeyguard(this, null) to stop forcing unlock
         } else {
             @Suppress("DEPRECATION")
             window.addFlags(
@@ -62,7 +63,21 @@ class VoiceCaptureActivity : ComponentActivity() {
         }
     }
 
+    private fun checkPermissionAndStart() {
+        if (ContextCompat.checkSelfPermission(
+                this,
+                Manifest.permission.RECORD_AUDIO
+            ) == PackageManager.PERMISSION_GRANTED
+        ) {
+            startSpeechRecognition()
+        } else {
+            Toast.makeText(this, "Microphone permission required", Toast.LENGTH_LONG).show()
+            finish()
+        }
+    }
+
     private fun startSpeechRecognition() {
+        isRecognizing = true
         performHapticFeedback()
         
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this)
@@ -73,22 +88,23 @@ class VoiceCaptureActivity : ComponentActivity() {
 
         speechRecognizer?.setRecognitionListener(object : RecognitionListener {
             override fun onReadyForSpeech(params: Bundle?) {
-                Toast.makeText(this@VoiceCaptureActivity, "Listening...", Toast.LENGTH_SHORT).show()
+                findViewById<TextView>(R.id.status_text).text = "Listening..."
             }
 
-            override fun onBeginningOfSpeech() {}
+            override fun onBeginningOfSpeech() {
+                findViewById<TextView>(R.id.status_text).text = "Go ahead..."
+            }
+
             override fun onRmsChanged(rmsdB: Float) {}
             override fun onBufferReceived(buffer: ByteArray?) {}
             override fun onEndOfSpeech() {}
 
             override fun onError(error: Int) {
-                val message = when (error) {
-                    SpeechRecognizer.ERROR_NO_MATCH -> "No match found"
-                    SpeechRecognizer.ERROR_SPEECH_TIMEOUT -> "Speech timeout"
-                    SpeechRecognizer.ERROR_AUDIO -> "Audio error"
-                    else -> "Speech recognition error: $error"
+                if (error == SpeechRecognizer.ERROR_NO_MATCH || error == SpeechRecognizer.ERROR_SPEECH_TIMEOUT) {
+                    Toast.makeText(this@VoiceCaptureActivity, "No speech detected", Toast.LENGTH_SHORT).show()
+                } else if (error != SpeechRecognizer.ERROR_CLIENT) {
+                    Toast.makeText(this@VoiceCaptureActivity, "Error: $error", Toast.LENGTH_SHORT).show()
                 }
-                Toast.makeText(this@VoiceCaptureActivity, message, Toast.LENGTH_SHORT).show()
                 finish()
             }
 
@@ -99,8 +115,8 @@ class VoiceCaptureActivity : ComponentActivity() {
                 text?.let { thought ->
                     lifecycleScope.launch {
                         harvestRepository.saveThought(thought)
-                        Toast.makeText(this@VoiceCaptureActivity, "Thought Harvested", Toast.LENGTH_SHORT).show()
-                        performHapticFeedback() // Confirmation haptic
+                        Toast.makeText(this@VoiceCaptureActivity, "Harvested: \"$thought\"", Toast.LENGTH_SHORT).show()
+                        performHapticFeedback()
                         finish()
                     }
                 } ?: finish()
@@ -121,12 +137,7 @@ class VoiceCaptureActivity : ComponentActivity() {
             @Suppress("DEPRECATION")
             getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
         }
-
-        try {
-            vibrator.vibrate(VibrationEffect.createOneShot(50, VibrationEffect.DEFAULT_AMPLITUDE))
-        } catch (e: Exception) {
-            // ignore
-        }
+        vibrator.vibrate(VibrationEffect.createOneShot(50, VibrationEffect.DEFAULT_AMPLITUDE))
     }
 
     override fun onDestroy() {

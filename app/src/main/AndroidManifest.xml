@@ -22,10 +22,23 @@
 
         <activity
             android:name=".VoiceCaptureActivity"
-            android:exported="false"
+            android:exported="true"
             android:showWhenLocked="true"
             android:turnScreenOn="true"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:label="Harvest Thought"
+            android:icon="@drawable/ic_harvest_widget"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity="com.example.dmnharvestmini.voice">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VOICE_COMMAND" />
+                <action android:name="android.intent.action.ASSIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+        </activity>
 
         <service
             android:name=".HarvestForegroundService"
@@ -49,7 +62,6 @@
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/dmnharvest_widget_info" />
-            <!-- Samsung specific lock screen meta-data -->
             <meta-data
                 android:name="com.samsung.android.appwidget.lockscreen"
                 android:value="true" />

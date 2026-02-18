@@ -4,8 +4,11 @@ drawable ic_harvest_widget
 id btn_generate
 id btn_refresh
 id list_thoughts
+id status_text
 id title
 layout activity_main
+layout activity_voice_capture
 layout glance_app_widget
+string app_name
 string widget_description
 xml dmnharvest_widget_info

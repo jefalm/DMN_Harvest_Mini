@@ -331,6 +331,7 @@ id rootStubId
 id rootView
 id sizeView
 id sizeViewStub
+id status_text
 id switchText
 id switchThumb
 id switchTrack
@@ -365,6 +366,7 @@ interpolator glance_btn_checkbox_unchecked_mtrl_animation_interpolator_1
 interpolator glance_btn_radio_to_off_mtrl_animation_interpolator_0
 interpolator glance_btn_radio_to_on_mtrl_animation_interpolator_0
 layout activity_main
+layout activity_voice_capture
 layout box_center_horizontal_bottom
 layout box_center_horizontal_bottom_0children
 layout box_center_horizontal_bottom_10children
@@ -1538,6 +1540,7 @@ layout size_wrap_match
 layout size_wrap_wrap
 raw glance_appwidget_keep
 string androidx_startup
+string app_name
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action

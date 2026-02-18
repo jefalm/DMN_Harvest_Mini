@@ -24,6 +24,9 @@ import androidx.glance.layout.Column
 import androidx.glance.text.TextStyle
 import androidx.glance.GlanceTheme
 import androidx.glance.text.FontWeight
+import androidx.glance.unit.ColorProvider
+import androidx.glance.layout.fillMaxHeight
+import androidx.glance.layout.fillMaxWidth
 
 class DMNHarvestWidget : GlanceAppWidget() {
     @OptIn(ExperimentalGlanceApi::class)
@@ -34,13 +37,14 @@ class DMNHarvestWidget : GlanceAppWidget() {
                     modifier = GlanceModifier
                         .fillMaxSize()
                         .background(GlanceTheme.colors.primaryContainer)
-                        .cornerRadius(16.dp)
+                        // Updated to Android 16 standard 24dp for better One UI 8 integration
+                        .cornerRadius(24.dp)
                         .clickable(
                             actionStartActivity(
                                 Intent(context, VoiceCaptureActivity::class.java),
                                 activityOptions = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
                                     ActivityOptions.makeBasic().apply {
-                                        setLaunchDisplayId(0) // Hint for lock screen
+                                        launchDisplayId = 0 // Using Kotlin property syntax
                                     }.toBundle()
                                 } else null
                             )
@@ -49,7 +53,8 @@ class DMNHarvestWidget : GlanceAppWidget() {
                 ) {
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally,
-                        modifier = GlanceModifier.padding(8.dp)
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = GlanceModifier.padding(8.dp).fillMaxSize()
                     ) {
                         Text(
                             text = "Harvest",

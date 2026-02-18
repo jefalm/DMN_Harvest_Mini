@@ -29,8 +29,7 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:label="DMN Harvest Mini"
-        android:supportsRtl="true"
-        android:testOnly="true" >
+        android:supportsRtl="true" >
         <activity
             android:name="com.example.dmnharvestmini.MainActivity"
             android:exported="true" >
@@ -42,10 +41,24 @@
         </activity>
         <activity
             android:name="com.example.dmnharvestmini.VoiceCaptureActivity"
-            android:exported="false"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:icon="@drawable/ic_harvest_widget"
+            android:label="Harvest Thought"
+            android:launchMode="singleInstance"
             android:showWhenLocked="true"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:turnScreenOn="true" />
+            android:taskAffinity="com.example.dmnharvestmini.voice"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:turnScreenOn="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VOICE_COMMAND" />
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+        </activity>
 
         <service
             android:name="com.example.dmnharvestmini.HarvestForegroundService"
@@ -70,7 +83,6 @@
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/dmnharvest_widget_info" />
-            <!-- Samsung specific lock screen meta-data -->
             <meta-data
                 android:name="com.samsung.android.appwidget.lockscreen"
                 android:value="true" />
