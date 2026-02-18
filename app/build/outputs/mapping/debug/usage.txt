@@ -19460,7 +19460,12 @@ com.example.dmnharvestmini.HarvestForegroundService:
     private static final int NOTIFICATION_ID
 com.example.dmnharvestmini.MainActivity:
     private android.widget.Button btnToggleService
+com.example.dmnharvestmini.R$color
 com.example.dmnharvestmini.R$drawable:
+    public static int brain
+    public static int ic_brain_padded_for_lockscreen
+    public static int ic_harvest_widget
+    public static int ic_launcher_foreground
     private void <init>()
 com.example.dmnharvestmini.R$id:
     public static int title
@@ -19468,7 +19473,11 @@ com.example.dmnharvestmini.R$id:
 com.example.dmnharvestmini.R$layout:
     public static int glance_app_widget
     private void <init>()
-com.example.dmnharvestmini.R$string
+com.example.dmnharvestmini.R$mipmap
+com.example.dmnharvestmini.R$string:
+    public static int app_name
+    public static int widget_description
+    private void <init>()
 com.example.dmnharvestmini.R$xml
 com.example.dmnharvestmini.R
 com.example.dmnharvestmini.Thought:

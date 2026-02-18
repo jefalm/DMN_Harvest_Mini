@@ -45,11 +45,11 @@ class HarvestForegroundService : Service() {
         val builder = NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("DMN Harvest")
             .setContentText("Tap to capture a thought")
-            .setSmallIcon(R.drawable.ic_harvest_widget)
-            .setOngoing(true) // Prevents manual swipe-away
+            .setSmallIcon(R.drawable.ic_brain)
+            .setOngoing(true) // This is the key flag to make it non-dismissible
             .setSilent(true)   // Keep it quiet as a background utility
-            .setPriority(NotificationCompat.PRIORITY_LOW)
-            .setCategory(NotificationCompat.CATEGORY_SERVICE) // Helps survive "Clear all"
+            .setPriority(NotificationCompat.PRIORITY_DEFAULT) // Increased priority for older Android
+            .setCategory(NotificationCompat.CATEGORY_SERVICE)
             .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
             .setContentIntent(pendingIntent)
 
@@ -65,7 +65,7 @@ class HarvestForegroundService : Service() {
             val serviceChannel = NotificationChannel(
                 CHANNEL_ID,
                 "Harvest Service Channel",
-                NotificationManager.IMPORTANCE_LOW // Low importance prevents "Clear all" on many devices
+                NotificationManager.IMPORTANCE_DEFAULT // Increased importance for modern Android
             ).apply {
                 description = "Keeps DMN Harvest active for quick access"
                 lockscreenVisibility = Notification.VISIBILITY_PUBLIC

@@ -17,15 +17,19 @@ class CaptureAction : ActionCallback {
         glanceId: GlanceId,
         parameters: ActionParameters
     ) {
-        // simple haptic handshake
+        // Strong confirmation haptic
         val vibrator = context.getSystemService(Context.VIBRATOR_SERVICE) as? Vibrator
         try {
             vibrator?.let {
+                // Pattern: 0ms delay, 250ms vibrate (Longer), 60ms rest, 350ms vibrate (Even Longer)
+                val timings = longArrayOf(0, 250, 60, 350)
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                    it.vibrate(VibrationEffect.createOneShot(40, VibrationEffect.DEFAULT_AMPLITUDE))
+                    // Amplitudes: 255 is the absolute maximum ceiling
+                    val amplitudes = intArrayOf(0, 255, 0, 255)
+                    it.vibrate(VibrationEffect.createWaveform(timings, amplitudes, -1))
                 } else {
                     @Suppress("DEPRECATION")
-                    it.vibrate(40)
+                    it.vibrate(timings, -1)
                 }
             }
         } catch (e: Exception) {

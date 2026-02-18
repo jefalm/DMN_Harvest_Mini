@@ -85,11 +85,11 @@ class VoiceCaptureActivity : ComponentActivity() {
 
         speechRecognizer?.setRecognitionListener(object : RecognitionListener {
             override fun onReadyForSpeech(params: Bundle?) {
-                findViewById<TextView>(R.id.status_text).text = "Listening..."
+                findViewById<TextView>(R.id.status_text).text = getString(R.string.status_listening)
             }
 
             override fun onBeginningOfSpeech() {
-                findViewById<TextView>(R.id.status_text).text = "Go ahead..."
+                findViewById<TextView>(R.id.status_text).text = getString(R.string.status_listening)
             }
 
             override fun onRmsChanged(rmsdB: Float) {}
@@ -135,9 +135,17 @@ class VoiceCaptureActivity : ComponentActivity() {
             getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
         }
         
-        // 255 is the maximum amplitude value in Android's VibrationEffect
-        val effect = VibrationEffect.createOneShot(100, 255)
-        vibrator.vibrate(effect)
+        // Pattern: 0ms delay, 250ms vibrate (Longer), 60ms rest, 350ms vibrate (Even Longer)
+        val timings = longArrayOf(0, 250, 60, 350)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            // Amplitudes: 255 is the absolute maximum ceiling
+            val amplitudes = intArrayOf(0, 255, 0, 255)
+            val effect = VibrationEffect.createWaveform(timings, amplitudes, -1)
+            vibrator.vibrate(effect)
+        } else {
+            @Suppress("DEPRECATION")
+            vibrator.vibrate(timings, -1)
+        }
     }
 
     override fun onDestroy() {

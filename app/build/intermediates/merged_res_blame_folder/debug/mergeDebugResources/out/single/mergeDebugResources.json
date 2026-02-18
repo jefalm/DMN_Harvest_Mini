@@ -40,40 +40,40 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_frame_center_horizontal_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_radio_row_null_center_vertical_4children.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_row_null_center_vertical_4children.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable-xxxhdpi-v4_ic_call_answer_low.png.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-core-1.13.0-45:\\drawable-xxxhdpi-v4\\ic_call_answer_low.png"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_radio_row_null_center_vertical_4children.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_row_null_center_vertical_4children.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_radio_button_start_bottom.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_radio_button_start_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_end_top_7children.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_end_top_7children.xml"
-    },
-    {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_column_start_null_7children.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\column_start_null_7children.xml"
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable-xxhdpi-v4_ic_call_decline_low.png.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-core-1.13.0-45:\\drawable-xxhdpi-v4\\ic_call_decline_low.png"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable-ldpi-v4_ic_call_answer_video.png.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-core-1.13.0-45:\\drawable-ldpi-v4\\ic_call_answer_video.png"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable-xxhdpi-v4_ic_call_decline_low.png.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-core-1.13.0-45:\\drawable-xxhdpi-v4\\ic_call_decline_low.png"
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_column_start_null_7children.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\column_start_null_7children.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_row_child_null_center_vertical_group_1.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\row_child_null_center_vertical_group_1.xml"
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_end_top_7children.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_end_top_7children.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_row_child_null_top_group_8.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\row_child_null_top_group_8.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_row_child_null_center_vertical_group_1.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\row_child_null_center_vertical_group_1.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_end_top_9children.xml.flat",
@@ -88,20 +88,20 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\drawable-v31\\glance_error_layout_background.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_image_fit_decorative_wrapwidth_expandheight.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_image_fit_decorative_wrapwidth_expandheight.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_radio_column_end_top.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\radio_column_end_top.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_five_columns_start_center_vertical.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_vertical_grid_five_columns_start_center_vertical.xml"
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_image_fit_decorative_wrapwidth_expandheight.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_image_fit_decorative_wrapwidth_expandheight.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_start_top_group_0.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_start_top_group_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_five_columns_start_center_vertical.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_vertical_grid_five_columns_start_center_vertical.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_column_end_null_4children.xml.flat",
@@ -216,12 +216,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_start_center_vertical_group_1.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_image_fit_end_top.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_image_fit_end_top.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_radio_row_null_center_vertical_2children.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_row_null_center_vertical_2children.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_image_fit_end_top.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_image_fit_end_top.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_text_end_bottom.xml.flat",
@@ -300,12 +300,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_column_start_null_10children.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_radio_column_center_horizontal_null_9children.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_column_center_horizontal_null_9children.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_complex_expand_fixed.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\complex_expand_fixed.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_radio_column_center_horizontal_null_9children.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_column_center_horizontal_null_9children.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_column_expandwidth_wrapheight.xml.flat",
@@ -336,24 +336,24 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_radio_button_end_top.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_one_column_wrapwidth_expandheight.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_vertical_grid_one_column_wrapwidth_expandheight.xml"
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_center_horizontal_bottom_group_8.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_center_horizontal_bottom_group_8.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\xml_dmnharvest_widget_info.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-main-55:\\xml\\dmnharvest_widget_info.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_center_horizontal_bottom_group_8.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_center_horizontal_bottom_group_8.xml"
-    },
-    {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_two_columns_expandwidth_wrapheight.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_vertical_grid_two_columns_expandwidth_wrapheight.xml"
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_one_column_wrapwidth_expandheight.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_vertical_grid_one_column_wrapwidth_expandheight.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_three_columns_end_center_vertical.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_vertical_grid_three_columns_end_center_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_two_columns_expandwidth_wrapheight.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_vertical_grid_two_columns_expandwidth_wrapheight.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_text_center_horizontal_bottom.xml.flat",
@@ -376,12 +376,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_start_top_group_4.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_child_center_horizontal_top_group_9.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_center_horizontal_top_group_9.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable-xxhdpi-v4_ic_call_decline.png.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-core-1.13.0-45:\\drawable-xxhdpi-v4\\ic_call_decline.png"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_child_center_horizontal_top_group_9.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_center_horizontal_top_group_9.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_column_child_center_horizontal_null_group_2.xml.flat",
@@ -396,12 +396,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\row_center_horizontal_center_vertical.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_end_center_vertical_group_5.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_end_center_vertical_group_5.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\interpolator_glance_btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\interpolator\\glance_btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_end_center_vertical_group_5.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_end_center_vertical_group_5.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_child_end_top_group_2.xml.flat",
@@ -452,12 +452,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-core-1.13.0-45:\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_circular_progress_indicator_wrapwidth_expandheight.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_circular_progress_indicator_wrapwidth_expandheight.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_start_bottom_2children.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_start_bottom_2children.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_circular_progress_indicator_wrapwidth_expandheight.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_circular_progress_indicator_wrapwidth_expandheight.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_five_columns_end_bottom.xml.flat",
@@ -472,12 +472,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_end_bottom_group_5.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_column_center_horizontal_top.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\column_center_horizontal_top.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_glance_invalid_list_item.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\glance_invalid_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_column_center_horizontal_top.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\column_center_horizontal_top.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_column_center_horizontal_bottom.xml.flat",
@@ -488,24 +488,24 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_end_center_vertical_group_0.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\anim_glance_btn_radio_to_on_mtrl_dot_group_animation.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\anim\\glance_btn_radio_to_on_mtrl_dot_group_animation.xml"
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_radio_row_null_bottom_6children.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_row_null_bottom_6children.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_complex_wrap_expand.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\complex_wrap_expand.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_radio_row_null_bottom_6children.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_row_null_bottom_6children.xml"
-    },
-    {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_column_child_start_null_group_9.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\column_child_start_null_group_9.xml"
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\anim_glance_btn_radio_to_on_mtrl_dot_group_animation.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\anim\\glance_btn_radio_to_on_mtrl_dot_group_animation.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_radio_button_end_center_vertical.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_radio_button_end_center_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_column_child_start_null_group_9.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\column_child_start_null_group_9.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_column_child_center_horizontal_null_group_2.xml.flat",
@@ -528,12 +528,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\glance_check_box_text.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_box_end_center_vertical.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\box_end_center_vertical.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_child_start_center_vertical_group_8.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_start_center_vertical_group_8.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_box_end_center_vertical.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\box_end_center_vertical.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
@@ -548,12 +548,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_start_bottom_6children.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_radio_row_null_center_vertical_8children.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_row_null_center_vertical_8children.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_child_start_top_group_4.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_start_top_group_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_radio_row_null_center_vertical_8children.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_row_null_center_vertical_8children.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_swtch_wrapwidth_expandheight.xml.flat",
@@ -588,12 +588,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_center_horizontal_bottom_group_5.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable_glance_switch_thumb_animated.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\drawable\\glance_switch_thumb_animated.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_child_start_bottom_group_9.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_start_bottom_group_9.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable_glance_switch_thumb_animated.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\drawable\\glance_switch_thumb_animated.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable-ldpi-v4_ic_call_answer_video_low.png.flat",
@@ -604,12 +604,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\row_child_null_top_group_1.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_auto_fit_end_top.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_vertical_grid_auto_fit_end_top.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_check_box_backport_wrapwidth_expandheight.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_check_box_backport_wrapwidth_expandheight.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_auto_fit_end_top.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_vertical_grid_auto_fit_end_top.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_image_fit_decorative_start_top.xml.flat",
@@ -648,24 +648,24 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\glance_linear_progress_indicator.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_check_box_center_horizontal_bottom.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_check_box_center_horizontal_bottom.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_image_fit_center_horizontal_top.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_image_fit_center_horizontal_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_check_box_center_horizontal_bottom.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_check_box_center_horizontal_bottom.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_end_center_vertical_group_9.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_end_center_vertical_group_9.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_center_horizontal_top_group_4.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_center_horizontal_top_group_4.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_five_columns_start_top.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_vertical_grid_five_columns_start_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_center_horizontal_top_group_4.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_center_horizontal_top_group_4.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_radio_button_center_horizontal_bottom.xml.flat",
@@ -680,12 +680,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_start_bottom_group_8.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_glance_frame.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\glance_frame.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_radio_button_backport_center_horizontal_top.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_radio_button_backport_center_horizontal_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_glance_frame.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\glance_frame.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_image_fit_decorative_end_center_vertical.xml.flat",
@@ -736,12 +736,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_check_box_end_center_vertical.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_child_start_top_group_0.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_start_top_group_0.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_column_child_start_null_group_2.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\column_child_start_null_group_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_child_start_top_group_0.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_start_top_group_0.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_radio_row_start_top.xml.flat",
@@ -820,12 +820,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_end_top_group_8.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_size_wrap_wrap.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\size_wrap_wrap.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_swtch_end_bottom.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_swtch_end_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_size_wrap_wrap.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\size_wrap_wrap.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_row_child_null_bottom_group_4.xml.flat",
@@ -848,12 +848,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_radio_button_expandwidth_wrapheight.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_center_horizontal_center_vertical_group_8.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_center_horizontal_center_vertical_group_8.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_column_child_start_null_group_0.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\column_child_start_null_group_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_center_horizontal_center_vertical_group_8.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_center_horizontal_center_vertical_group_8.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_column_child_center_horizontal_null_group_1.xml.flat",
@@ -900,12 +900,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_image_fill_bounds_end_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_check_box_backport_end_top.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_check_box_backport_end_top.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_vertical_grid_three_columns_end_top.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_vertical_grid_three_columns_end_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_check_box_backport_end_top.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_check_box_backport_end_top.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_swtch_start_top.xml.flat",
@@ -960,12 +960,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_image_fit_start_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_radio_row_null_center_vertical_0children.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_row_null_center_vertical_0children.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\color_glance_switch_off_ambient_shadow.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\color\\glance_switch_off_ambient_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_radio_row_null_center_vertical_0children.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\radio_row_null_center_vertical_0children.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_row_child_null_center_vertical_group_5.xml.flat",
@@ -1024,12 +1024,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\glance_radio_text.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_start_bottom_4children.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_start_bottom_4children.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_end_bottom_group_2.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_end_bottom_group_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_start_bottom_4children.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_start_bottom_4children.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\anim_glance_btn_checkbox_to_unchecked_check_path_merged_animation.xml.flat",
@@ -1058,6 +1058,10 @@
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_radio_column_start_top.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\radio_column_start_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable_brain.png.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-main-55:\\drawable\\brain.png"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_center_horizontal_bottom_group_4.xml.flat",
@@ -1444,12 +1448,12 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_start_bottom_group_6.xml"
     },
     {
-        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_center_horizontal_center_vertical_2children.xml.flat",
-        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_center_horizontal_center_vertical_2children.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_image_crop_decorative_wrapwidth_expandheight.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\glance_image_crop_decorative_wrapwidth_expandheight.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_center_horizontal_center_vertical_2children.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_center_horizontal_center_vertical_2children.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_row_child_null_bottom_group_9.xml.flat",
@@ -1804,6 +1808,10 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\column_child_center_horizontal_null_group_7.xml"
     },
     {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-main-55:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_row_null_center_vertical_10children.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\row_null_center_vertical_10children.xml"
     },
@@ -2124,10 +2132,6 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\drawable\\glance_button_ripple.xml"
     },
     {
-        "merged": "com.example.dmnharvestmini.app-debug-53:/layout_activity_voice_capture.xml.flat",
-        "source": "com.example.dmnharvestmini.app-main-55:/layout/activity_voice_capture.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_start_bottom_7children.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_start_bottom_7children.xml"
     },
@@ -2208,6 +2212,10 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\complex_wrap_wrap.xml"
     },
     {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable_ic_brain.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-main-55:\\drawable\\ic_brain.xml"
+    },
+    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_child_center_horizontal_center_vertical_group_5.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\box_child_center_horizontal_center_vertical_group_5.xml"
     },
@@ -2222,6 +2230,10 @@
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_row_child_null_top_group_6.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout\\row_child_null_top_group_6.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-main-55:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_glance_frame_wrapwidth_expandheight.xml.flat",
@@ -2710,6 +2722,10 @@
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable_glance_switch_thumb_on_to_off.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\drawable\\glance_switch_thumb_on_to_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable_ic_brain_padded_for_lockscreen.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-main-55:\\drawable\\ic_brain_padded_for_lockscreen.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_column_child_start_null_group_2.xml.flat",
@@ -3460,6 +3476,10 @@
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\drawable\\glance_component_btn_circle.xml"
     },
     {
+        "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-main-55:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v31_box_child_center_horizontal_center_vertical_group_9.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v31\\box_child_center_horizontal_center_vertical_group_9.xml"
     },
@@ -3714,6 +3734,10 @@
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout-v33_radio_row_center_horizontal_bottom.xml.flat",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-jetified-glance-appwidget-1.1.1-47:\\layout-v33\\radio_row_center_horizontal_bottom.xml"
+    },
+    {
+        "merged": "com.example.dmnharvestmini.app-debug-53:/drawable_ic_brain_padded_for_lockscreen.xml.flat",
+        "source": "com.example.dmnharvestmini.app-main-55:/drawable/ic_brain_padded_for_lockscreen.xml"
     },
     {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-debug-53:\\layout_box_child_end_bottom_group_5.xml.flat",

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="ic_launcher_background">#F5F5F5</color>
     <string name="app_name">DMN Harvest Mini</string>
+    <string name="status_listening">💭</string>
     <string name="widget_description">Quickly capture thoughts from your lock screen</string>
 </resources>

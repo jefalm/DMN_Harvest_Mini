@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">DMN Harvest Mini</string>
     <string name="widget_description">Quickly capture thoughts from your lock screen</string>
+    <string name="status_listening">💭</string>
 </resources>

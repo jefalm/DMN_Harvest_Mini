@@ -15,17 +15,10 @@
             android:id="@+id/status_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Listening..."
+            android:text="@string/status_listening"
             android:textColor="#FFFFFF"
-            android:textSize="24sp"
+            android:textSize="48sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Speak your thought now"
-            android:textColor="#BBFFFFFF"
-            android:textSize="16sp" />
     </LinearLayout>
 </FrameLayout>

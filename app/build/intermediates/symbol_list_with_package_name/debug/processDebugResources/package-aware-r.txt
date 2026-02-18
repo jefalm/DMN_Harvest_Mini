@@ -78,6 +78,7 @@ color glance_switch_thumb_disabled_material_light
 color glance_switch_thumb_normal_material_dark
 color glance_switch_thumb_normal_material_light
 color glance_white_disabled_material_anim
+color ic_launcher_background
 color notification_action_color_filter
 color notification_icon_bg_color
 color vector_tint_color
@@ -107,6 +108,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+drawable brain
 drawable glance_abc_btn_check_material_anim_enabled
 drawable glance_btn_checkbox_checked_mtrl
 drawable glance_btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -136,6 +138,8 @@ drawable glance_switch_thumb_off_to_on
 drawable glance_switch_thumb_on
 drawable glance_switch_thumb_on_to_off
 drawable glance_switch_track
+drawable ic_brain
+drawable ic_brain_padded_for_lockscreen
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -143,6 +147,7 @@ drawable ic_call_answer_video_low
 drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_harvest_widget
+drawable ic_launcher_foreground
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1538,6 +1543,8 @@ layout size_match_match
 layout size_match_wrap
 layout size_wrap_match
 layout size_wrap_wrap
+mipmap ic_launcher
+mipmap ic_launcher_round
 raw glance_appwidget_keep
 string androidx_startup
 string app_name
@@ -1569,6 +1576,7 @@ string range_end
 string range_start
 string selected
 string status_bar_notification_info_overflow
+string status_listening
 string switch_role
 string tab
 string template_percent

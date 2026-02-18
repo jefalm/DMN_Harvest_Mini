@@ -1,9 +1,5 @@
 [
     {
-        "merged": "com.example.dmnharvestmini.app-mergeDebugResources-51:/layout/activity_voice_capture.xml",
-        "source": "com.example.dmnharvestmini.app-main-55:/layout/activity_voice_capture.xml"
-    },
-    {
         "merged": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-mergeDebugResources-51:\\layout\\activity_main.xml",
         "source": "C:\\Users\\dexte\\.gradle\\daemon\\8.5\\com.example.dmnharvestmini.app-main-55:\\layout\\activity_main.xml"
     },
